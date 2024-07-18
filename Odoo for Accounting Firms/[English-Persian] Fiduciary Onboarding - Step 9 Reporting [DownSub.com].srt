@@ -1,0 +1,1047 @@
+1
+00:00:00,780 --> 00:00:03,240
+hello and welcome back to this series of  how to implement audio Accounting in 10  easy steps this video is all going to be  about step 9 and we're going to be  talking about reporting  so let's dive in in our database and in  the accounting application  so the first report I want to show you  is our vat return so you can see here  directly from the journal here that I  have a vat return to file for October  I'm a little bit late with my returns so  I can see here the data which I should  have done it you can also find it here  under the reporting menu if you want to  here in the tax report but I'm going to  go directly from the link here in red  because it's late  when I get here this is my Belgian vat  return I can choose if I want to other  countries if I have business in other  countries here you can find it here in  the menu but I'm just going to focus on  my  Belgian vat return for today so you can  choose the date automatically because I  clicked on that link it brings me to  October where I can change change that  if I want to  and here you will see that you have the  option to do your clothing entry so you  can review your entry you see that I  don't have a lot of transaction in this  month and if I click on closing entry  I do is gonna create for me the uh entry  that I'm gonna book it's gonna take all  the vat accounts and make a sum and then  book everything in this case I don't  have a lot of entries so there's nothing  for me here but I can post it and once I  post I can choose whether I want to ask  restitution a payment or not and I can  then click here or do it's going to  create for me the XML file  that I'm going to find here on the left  on the right side of my screen  and automatically audio is also created  for me an activity that you can find  here in the chatter and to tell me that  I have to obviously send this vat report  to the administration  I have here my data reporting PDF and  XML if I want to find it again also  important to know once I've done this if  I go and check my log dates now that  I've sent my report you can see that  audio has automatically added a log date  for my vat return after October that  means that now that I've created my  report obviously it's not going to let  me book any entries in this period with  the vat impact  okay  so that was for the tax reports that I  can also find here in this smart button  on the corner there are many reports  that are available you know do obviously  the generic ones the balance sheet is  the first one so you can have here this  View and you can choose whether you want  to use the generic one but you also have  the option to use the one for your  country based on your localization so in  this case if I do this it will be then  in French with the accounts specific for  Belgium  you can choose the date at which you  want to see this report in this case I'm  just going to use the end of last  Financial year but you can also custom  and then choose a different date if you  want  a good feature also is you can compare  with the previous period and then you  can choose as many periods as you want  I'm just going to be realistic here I'm  just going to take two and apply this to  my view so then I will see I can compare  easily with what happened the year  before  if I want to I can select the journals  that I want to see in this balance sheet  in my case I want to see everything so  I'm just going to leave it as such but  if you really wanted to have a better  view of something very specific that you  can select it here in the same way you  can also choose the analytical accounts  that you have on your database so you  can filter by accounts or even buy  analytical plans  again I'm just going to stay here for  the full standard View  you can choose to have the postage  entries only or not you can include them  if you want them and you can unfold  everything so you can see all your lines  note that all the reports can be saved  in PDF or Excel and you can save them in  your document application in case you  wanted to send it to your clients they  will have access to those reports in the  document application  another cool feature about these reports  you know do is if I scroll down so I can  see all of the things and I can even  have here my loss or when here in this  case and I arrive and I click here  directly in my profit and loss accounts  again this is for Belgium but I can  choose if I want to to go to the generic  one and I have the same format with the  same comparison and everything and I can  just scroll down and see for instance I  don't know I can open this account and I  can  drill down a step further in my general  ledger  so here I will see all of the  transactions that I have in my general  ledger so that's quite nice and if I  want I can go all the way down to my uh  p l for instance and I can take Telecom  this one for instance I know I can click  here  and then I come back to the view of my  journal entry with the document attached  so you have seen that from the balance  sheet I have the opportunity to drill  down to the smallest level of detail  which is my invoice so in case I want to  check something something looks a little  bit weird then I can just drill down  until I find the thing and then I can  check on the paper oh yeah that's that  was actually all right everything is  fine and I can just click back here and  then come back to my balance sheet  okay there are many reports you know do  as I said so I'm just going to  concentrate on if you want to the  general ledger we've seen this one the  journal report we have already talked  about it in a different video but know  that it's also a very interesting one so  here for instance per Journal you will  see all the transactions so here in my  vendor bill for instance if I scroll  down a little you will see at the bottom  also analysis per taxes that have been  applied so I have here with the  different taxes the base amount and the  tax amount and also here with the tax  rate but that's very uh Belgium specific  so maybe not interesting for everyone  but know that it is available  another report that we have is the  partner ledger so you will find all the  transaction based on the partner so you  can have it and all here all together  with the debate and credit and then the  balance at the period so you can choose  also the period that you want so you can  see everything that's there  similarly we also have the age  receivable and payable  here in this case these are the invoices  and bills that are still open at the  time so here this is as of today and I  can see the invoices and bills that I  have to be paid  so here you have different categories  you can change that if you want to do  have your own but this is the standard  one of the 30 days after 60 days and so  on so I can easily see what needs to be  paid and not by clicking here so that's  quite nice  um in the same way you have the  follow-up reports as well on the  customers that you can use where you can  find for each client you can send a  email oops  um where you can send an email  automatically to your client to remind  them that you can that they have to pay  your invoices  but going back to the reporting each  payable is similarly the same thing we  have the unrealized currency gain and  losses here which is also quite uh nice  I have to say because what is going to  happen odoo is going to take all the  open entries at a specific date in a  different currency  and it's going to have proposed to you  the adjustment entry and you have the  possibility to eventually change the  rates that I have used for these reports  so in case you work  within a group of companies and you will  want to use the same rate then I can  just apply this one here or it will give  me a little warning to say that I have  changed it but then you will see my  adjustment is here and I can just click  here for my adjustment entry and I'll do  is going to book this for me obviously I  have to choose my journal which will be  uh yeah unrealized currency so at the  expense account and so on and you will  see here the date of the booking and the  reversal date obviously the day after so  that it doesn't impact my pnm  speaking of exchange rates in the  settings you have the possibility to  activate different currencies so if you  click here you will have the full list  of currencies that are available as you  can see there are quite a few so you  need to activate them before if you want  to use them and if I take this 1gbp you  will find here all the exchange rates  that are here you can import them  manually if you want to but you can also  choose to have them  automatically updated by a different  Source here I chose the European Central  Bank because this is the one that we  mostly use and I can choose my interval  whether I want it to happen daily weekly  or manually if I want I can do it myself  every time but that doesn't seem very  efficient so I can just select daily if  I want to update here I just have to  click on the double arrow and then I do  is going to fetch for me the latest  rates okay  depreciation schedule sorry we talked  about it in the previous video so make  sure to check that out so I'm not going  to talk about it here these allowed  expenses is also a good one you will  find here the different categories of  these allowed expenses and the entries  that are related to that with the rates  of  yeah detection that you can have so you  will have your disallowed amount here so  that's also a really nice one  and yeah that's about it for the reports  that I wanted to see the other ones are  pretty country specific so I'm not going  to talk about this today  so there you go uh this was it for the  reports  see you in the next video
+سلام و خوش آمدید به این سری از
+
+2
+00:00:03,240 --> 00:00:05,100
+نحوه پیاده سازی حسابداری صوتی در 10
+
+3
+00:00:05,100 --> 00:00:07,319
+مرحله آسان، این ویدیو همه
+
+4
+00:00:07,319 --> 00:00:09,300
+در مورد مرحله 9 است و ما در
+
+5
+00:00:09,300 --> 00:00:12,000
+مورد گزارش صحبت خواهیم کرد،
+
+6
+00:00:12,000 --> 00:00:15,540
+بنابراین بیایید در پایگاه داده خود و در
+
+7
+00:00:15,540 --> 00:00:17,340
+برنامه حسابداری غوطه ور شویم.
+
+8
+00:00:17,340 --> 00:00:19,140
+اولین گزارشی که می‌خواهم به شما نشان دهم
+
+9
+00:00:19,140 --> 00:00:21,539
+بازگشت مالیات بر ارزش افزوده ما است، بنابراین می‌توانید
+
+10
+00:00:21,539 --> 00:00:24,060
+مستقیماً از ژورنال اینجا ببینید که من
+
+11
+00:00:24,060 --> 00:00:25,980
+یک اظهارنامه مالیات بر ارزش افزوده برای ثبت در ماه اکتبر دارم.
+
+12
+00:00:25,980 --> 00:00:28,439
+
+13
+00:00:28,439 --> 00:00:30,060
+من باید
+
+14
+00:00:30,060 --> 00:00:32,340
+این کار را انجام می‌دادم، اگر می‌خواهید در گزارش مالیاتی اینجا را ببینید، می‌توانید آن را در
+
+15
+00:00:32,340 --> 00:00:35,579
+زیر منوی گزارش پیدا کنید،
+
+16
+00:00:35,579 --> 00:00:37,620
+اما من می‌خواهم
+
+17
+00:00:37,620 --> 00:00:40,440
+مستقیماً از پیوند اینجا با رنگ قرمز بروم
+
+18
+00:00:40,440 --> 00:00:43,020
+زیرا
+
+19
+00:00:43,020 --> 00:00:46,020
+وقتی به اینجا رسیدم دیر شده است.
+
+20
+00:00:46,020 --> 00:00:49,140
+بازگشت من می‌توانم انتخاب کنم
+
+21
+00:00:49,140 --> 00:00:51,719
+اگر در کشورهای دیگر تجارت دارم یا نه،
+
+22
+00:00:51,719 --> 00:00:53,520
+می‌توانم آن را در اینجا در
+
+23
+00:00:53,520 --> 00:00:55,020
+منو پیدا کنید، اما من فقط می‌خواهم روی
+
+24
+00:00:55,020 --> 00:00:56,120
+
+25
+00:00:56,120 --> 00:00:59,160
+بازگشت مالیات بر ارزش افزوده بلژیکی خود برای امروز تمرکز کنم تا بتوانید
+
+26
+00:00:59,160 --> 00:01:01,140
+تاریخ را به طور خودکار انتخاب کنید، زیرا من
+
+27
+00:01:01,140 --> 00:01:03,239
+با کلیک بر روی آن پیوند، من را به اکتبر می برد،
+
+28
+00:01:03,239 --> 00:01:05,040
+جایی که اگر بخواهم می توانم آن را تغییر دهم
+
+29
+00:01:05,040 --> 00:01:06,920
+
+30
+00:01:06,920 --> 00:01:09,720
+و در اینجا خواهید دید که شما
+
+31
+00:01:09,720 --> 00:01:11,580
+گزینه ای برای ورود لباس خود دارید، بنابراین
+
+32
+00:01:11,580 --> 00:01:13,799
+می توانید ورودی خود را بررسی کنید، می بینید که من
+
+33
+00:01:13,799 --> 00:01:15,960
+چیز زیادی ندارم.  از تراکنش در این
+
+34
+00:01:15,960 --> 00:01:18,900
+ماه و اگر روی بستن ورودی کلیک کنم،
+
+35
+00:01:18,900 --> 00:01:22,140
+برای من ورودی ایجاد می کنم
+
+36
+00:01:22,140 --> 00:01:24,180
+که می خواهم رزرو کنم، تمام
+
+37
+00:01:24,180 --> 00:01:26,580
+حساب های مالیات مالیات بر ارزش افزوده را می گیرد و مبلغی را ایجاد می کند و سپس
+
+38
+00:01:26,580 --> 00:01:28,320
+همه چیز را رزرو می کنم در این مورد من این کار را انجام نمی دهم.
+
+39
+00:01:28,320 --> 00:01:30,900
+ورودی های زیادی دارم، بنابراین چیزی
+
+40
+00:01:30,900 --> 00:01:32,939
+برای من در اینجا وجود ندارد، اما می توانم آن را پست کنم و پس از
+
+41
+00:01:32,939 --> 00:01:35,640
+ارسال می توانم انتخاب کنم که آیا می خواهم
+
+42
+00:01:35,640 --> 00:01:38,520
+مبلغی را برای بازپرداخت درخواست کنم یا نه و سپس می توانم
+
+43
+00:01:38,520 --> 00:01:40,500
+اینجا را کلیک کنم یا این کار را انجام دهم تا
+
+44
+00:01:40,500 --> 00:01:43,979
+فایل XML برای من ایجاد شود.
+
+45
+00:01:43,979 --> 00:01:46,320
+که قراره اینجا سمت چپ سمت
+
+46
+00:01:46,320 --> 00:01:48,540
+راست صفحه ام پیدا کنم
+
+47
+00:01:48,540 --> 00:01:51,360
+و به طور خودکار صدا هم
+
+48
+00:01:51,360 --> 00:01:52,920
+برای من ایجاد میشه یه فعالیتی که می تونی
+
+49
+00:01:52,920 --> 00:01:55,140
+اینجا تو چت پیدا کنی و بهم بگی که
+
+50
+00:01:55,140 --> 00:01:57,600
+واضحه باید این گزارش vat رو بفرستم
+
+51
+00:01:57,600 --> 00:01:59,640
+مدیریتی که
+
+52
+00:01:59,640 --> 00:02:02,159
+من اینجا دارم داده هایم را گزارش می دهم PDF و
+
+53
+00:02:02,159 --> 00:02:06,180
+XML اگر بخواهم دوباره آن را پیدا کنم همچنین
+
+54
+00:02:06,180 --> 00:02:09,598
+مهم است وقتی این کار را انجام دادم بدانم اگر
+
+55
+00:02:09,598 --> 00:02:12,060
+بروم و تاریخ های گزارش خود را بررسی کنم اکنون که
+
+56
+00:02:12,060 --> 00:02:13,920
+گزارشم را ارسال کردم، می توانید ببینید که
+
+57
+00:02:13,920 --> 00:02:15,900
+صدا دارای  به طور خودکار یک تاریخ ثبت گزارش
+
+58
+00:02:15,900 --> 00:02:19,020
+برای بازگشت مالیات بر ارزش افزوده من بعد از اکتبر اضافه کرد، به این
+
+59
+00:02:19,020 --> 00:02:20,400
+معنی که اکنون که گزارش خود را ایجاد کرده ام،
+
+60
+00:02:20,400 --> 00:02:22,140
+بدیهی است که به
+
+61
+00:02:22,140 --> 00:02:25,560
+من اجازه نمی دهد هیچ ورودی را در این دوره رزرو کنم با
+
+62
+00:02:25,560 --> 00:02:27,180
+تأثیر مالیات بر ارزش افزوده
+
+63
+00:02:27,180 --> 00:02:28,620
+خوب است،
+
+64
+00:02:28,620 --> 00:02:31,560
+بنابراین این برای گزارش های مالیاتی است که
+
+65
+00:02:31,560 --> 00:02:34,560
+می توانم  همچنین اینجا را در این دکمه هوشمند
+
+66
+00:02:34,560 --> 00:02:36,840
+گوشه ای پیدا کنید، گزارش های زیادی وجود دارد
+
+67
+00:02:36,840 --> 00:02:39,420
+که در دسترس هستند، شما می دانید که بدیهی است که
+
+68
+00:02:39,420 --> 00:02:42,360
+موارد عمومی را انجام می دهید، ترازنامه
+
+69
+00:02:42,360 --> 00:02:44,340
+اولین مورد است، بنابراین می توانید این نمای را در اینجا داشته باشید
+
+70
+00:02:44,340 --> 00:02:46,980
+و می توانید انتخاب کنید که آیا می خواهید از
+
+71
+00:02:46,980 --> 00:02:48,660
+یک عمومی استفاده کنید یا خیر.  اما شما همچنین این
+
+72
+00:02:48,660 --> 00:02:50,160
+گزینه را دارید که
+
+73
+00:02:50,160 --> 00:02:52,739
+بر اساس محلی سازی خود از یکی از موارد مربوط به کشور خود استفاده کنید، بنابراین
+
+74
+00:02:52,739 --> 00:02:54,840
+اگر من این کار را انجام دهم به زبان
+
+75
+00:02:54,840 --> 00:02:57,540
+فرانسه با حساب های مخصوص
+
+76
+00:02:57,540 --> 00:02:58,860
+بلژیک خواهد بود،
+
+77
+00:02:58,860 --> 00:03:01,019
+می توانید تاریخی را که
+
+78
+00:03:01,019 --> 00:03:03,420
+می خواهید این گزارش را ببینید انتخاب کنید.  در این مورد، من
+
+79
+00:03:03,420 --> 00:03:05,879
+فقط از پایان
+
+80
+00:03:05,879 --> 00:03:07,500
+سال مالی گذشته استفاده می کنم، اما شما همچنین می توانید سفارشی کنید
+
+81
+00:03:07,500 --> 00:03:09,120
+و سپس تاریخ دیگری را انتخاب کنید، اگر
+
+82
+00:03:09,120 --> 00:03:11,060
+
+83
+00:03:11,060 --> 00:03:13,560
+یک ویژگی خوب می خواهید، همچنین می توانید
+
+84
+00:03:13,560 --> 00:03:15,180
+با دوره قبل مقایسه کنید و سپس
+
+85
+00:03:15,180 --> 00:03:18,080
+می توانید هر تعداد دوره را انتخاب کنید.  همانطور که شما می خواهید،
+
+86
+00:03:18,080 --> 00:03:20,400
+من فقط در اینجا واقع بین هستم،
+
+87
+00:03:20,400 --> 00:03:23,280
+فقط دو مورد را انتخاب می کنم و این را در
+
+88
+00:03:23,280 --> 00:03:25,379
+دیدگاه خود اعمال می کنم، بنابراین می بینم که اگر بخواهم می توانم
+
+89
+00:03:25,379 --> 00:03:27,780
+به راحتی با آنچه سال قبل اتفاق افتاده است مقایسه کنم،
+
+90
+00:03:27,780 --> 00:03:29,340
+
+91
+00:03:29,340 --> 00:03:31,500
+می توانم مجلات را انتخاب کنم.
+
+92
+00:03:31,500 --> 00:03:32,940
+که می‌خواهم در این ترازنامه
+
+93
+00:03:32,940 --> 00:03:34,560
+در مورد خودم ببینم، می‌خواهم همه چیز را ببینم، بنابراین می‌خواهم
+
+94
+00:03:34,560 --> 00:03:35,819
+آن را به همین صورت بگذارم، اما
+
+95
+00:03:35,819 --> 00:03:37,739
+اگر واقعاً می‌خواستید
+
+96
+00:03:37,739 --> 00:03:39,540
+دید بهتری نسبت به چیزی بسیار خاص داشته باشید که
+
+97
+00:03:39,540 --> 00:03:41,700
+می‌توانید آن را در اینجا انتخاب کنید.  به همین ترتیب
+
+98
+00:03:41,700 --> 00:03:43,440
+می‌توانید حساب‌های تحلیلی را
+
+99
+00:03:43,440 --> 00:03:45,900
+که در پایگاه داده خود دارید انتخاب کنید تا
+
+100
+00:03:45,900 --> 00:03:48,000
+بتوانید بر اساس حساب‌ها فیلتر کنید یا حتی دوباره
+
+101
+00:03:48,000 --> 00:03:50,700
+طرح‌های تحلیلی
+
+102
+00:03:50,700 --> 00:03:52,680
+
+103
+00:03:52,680 --> 00:03:55,080
+
+104
+00:03:55,080 --> 00:03:57,659
+بخرید.
+
+105
+00:03:57,659 --> 00:04:00,480
+
+106
+00:04:00,480 --> 00:04:02,280
+اگر می‌خواهید می‌توانید آنها را وارد کنید و می‌توانید
+
+107
+00:04:02,280 --> 00:04:06,900
+همه چیز را باز کنید تا بتوانید تمام خطوط خود را ببینید. توجه داشته باشید
+
+108
+00:04:06,900 --> 00:04:09,720
+که همه گزارش‌ها را می‌توان
+
+109
+00:04:09,720 --> 00:04:12,720
+در PDF یا Excel ذخیره کرد و در صورتی که می‌خواهید آن را ارسال کنید می‌توانید آنها را در
+
+110
+00:04:12,720 --> 00:04:14,640
+برنامه سند خود ذخیره کنید.
+
+111
+00:04:14,640 --> 00:04:16,680
+مشتریان شما
+
+112
+00:04:16,680 --> 00:04:18,959
+به آن گزارش‌ها در برنامه سند دسترسی خواهند داشت
+
+113
+00:04:18,959 --> 00:04:20,760
+
+114
+00:04:20,760 --> 00:04:23,880
+یکی دیگر از ویژگی‌های جالب در مورد این گزارش‌ها
+
+115
+00:04:23,880 --> 00:04:25,919
+این است که اگر به پایین اسکرول کنم تا بتوانم
+
+116
+00:04:25,919 --> 00:04:28,380
+همه چیزها را ببینم و حتی می‌توانم
+
+117
+00:04:28,380 --> 00:04:34,020
+ضرر خود را در اینجا داشته باشم یا زمانی که در این
+
+118
+00:04:34,020 --> 00:04:35,759
+مورد اینجا هستم و  من می رسم و
+
+119
+00:04:35,759 --> 00:04:38,460
+مستقیماً در حساب های سود و زیان خود اینجا را کلیک می کنم
+
+120
+00:04:38,460 --> 00:04:40,320
+دوباره این برای بلژیک است، اما می توانم
+
+121
+00:04:40,320 --> 00:04:43,620
+انتخاب کنم اگر بخواهم به نسخه عمومی بروم
+
+122
+00:04:43,620 --> 00:04:45,780
+و همان فرمت را با
+
+123
+00:04:45,780 --> 00:04:47,280
+همان مقایسه و همه چیز دارم و فقط می توانم به
+
+124
+00:04:47,280 --> 00:04:50,699
+پایین اسکرول کنم.  و برای مثال ببینید من
+
+125
+00:04:50,699 --> 00:04:52,919
+نمی‌دانم می‌توانم این حساب را باز کنم و می‌توانم
+
+126
+00:04:52,919 --> 00:04:53,880
+
+127
+00:04:53,880 --> 00:04:56,220
+یک قدم بیشتر در دفتر کل خود را بررسی کنم،
+
+128
+00:04:56,220 --> 00:04:57,720
+
+129
+00:04:57,720 --> 00:05:00,180
+بنابراین در اینجا همه
+
+130
+00:05:00,180 --> 00:05:01,560
+تراکنش‌هایی را که در دفتر کل خود دارم می‌بینم،
+
+131
+00:05:01,560 --> 00:05:04,919
+بنابراین بسیار خوب است و اگر
+
+132
+00:05:04,919 --> 00:05:08,400
+بخواهم  می‌توانم به‌عنوان مثال تا انتها به سمت uh
+
+133
+00:05:08,400 --> 00:05:10,860
+p l بروم و می‌توانم از Telecom برای مثال استفاده کنم.
+
+134
+00:05:10,860 --> 00:05:12,900
+
+135
+00:05:12,900 --> 00:05:14,280
+
+136
+00:05:14,280 --> 00:05:16,560
+
+137
+00:05:16,560 --> 00:05:18,720
+
+138
+00:05:18,720 --> 00:05:21,180
+
+139
+00:05:21,180 --> 00:05:23,220
+ترازنامه را من این فرصت را دارم تا
+
+140
+00:05:23,220 --> 00:05:26,639
+کوچکترین جزئیات را
+
+141
+00:05:26,639 --> 00:05:28,860
+که فاکتور من است بررسی کنم، بنابراین اگر بخواهم
+
+142
+00:05:28,860 --> 00:05:30,840
+چیزی را بررسی کنم که کمی عجیب به نظر می رسد، می
+
+143
+00:05:30,840 --> 00:05:33,060
+توانم فقط
+
+144
+00:05:33,060 --> 00:05:34,800
+آن را پیدا کنم و سپس می توانم
+
+145
+00:05:34,800 --> 00:05:36,300
+بررسی کنم  روی کاغذ، اوه، بله، در
+
+146
+00:05:36,300 --> 00:05:37,860
+واقع همه چیز درست بود، همه چیز
+
+147
+00:05:37,860 --> 00:05:40,020
+خوب است و من فقط می توانم اینجا را کلیک کنم و
+
+148
+00:05:40,020 --> 00:05:42,479
+سپس به ترازنامه خود بازگردم، بسیار
+
+149
+00:05:42,479 --> 00:05:46,020
+خوب، گزارش های زیادی وجود دارد که می دانید
+
+150
+00:05:46,020 --> 00:05:47,220
+همانطور که گفتم انجام می دهید، بنابراین من فقط
+
+151
+00:05:47,220 --> 00:05:48,720
+روی این موضوع تمرکز می کنم که آیا  می‌خواهید به
+
+152
+00:05:48,720 --> 00:05:51,120
+دفتر کل مراجعه کنید، ما این یکی را دیده‌ایم،
+
+153
+00:05:51,120 --> 00:05:52,979
+گزارش مجله‌ای که قبلاً در
+
+154
+00:05:52,979 --> 00:05:54,660
+مورد آن در یک ویدیوی متفاوت صحبت کرده‌ایم، اما بدانید
+
+155
+00:05:54,660 --> 00:05:57,960
+که این یک مورد بسیار جالب نیز است، بنابراین در
+
+156
+00:05:57,960 --> 00:05:59,880
+اینجا برای مثال در هر مجله،
+
+157
+00:05:59,880 --> 00:06:01,740
+همه معاملات را در اینجا در من خواهید دید.
+
+158
+00:06:01,740 --> 00:06:03,419
+به عنوان مثال، صورتحساب فروشنده، اگر
+
+159
+00:06:03,419 --> 00:06:05,699
+کمی به پایین اسکرول کنم، در پایین
+
+160
+00:06:05,699 --> 00:06:08,759
+نیز تجزیه و تحلیل هر مالیات
+
+161
+00:06:08,759 --> 00:06:11,039
+اعمال شده را مشاهده خواهید کرد، بنابراین من در اینجا با
+
+162
+00:06:11,039 --> 00:06:13,020
+مالیات های مختلف، مقدار پایه و
+
+163
+00:06:13,020 --> 00:06:14,520
+مقدار مالیات و همچنین در اینجا با
+
+164
+00:06:14,520 --> 00:06:17,160
+نرخ مالیات دارم، اما این بسیار خوب است.  بلژیک خاص است،
+
+165
+00:06:17,160 --> 00:06:19,800
+بنابراین شاید برای همه جالب نباشد،
+
+166
+00:06:19,800 --> 00:06:22,380
+اما بدانید که
+
+167
+00:06:22,380 --> 00:06:24,180
+گزارش دیگری که ما داریم در دسترس است،
+
+168
+00:06:24,180 --> 00:06:27,539
+دفتر کل شریک است، بنابراین شما تمام
+
+169
+00:06:27,539 --> 00:06:29,580
+تراکنش ها را بر اساس شریک پیدا خواهید کرد، بنابراین
+
+170
+00:06:29,580 --> 00:06:31,319
+می توانید آن را داشته باشید و همه اینجا
+
+171
+00:06:31,319 --> 00:06:34,080
+با بحث و اعتبار و  سپس
+
+172
+00:06:34,080 --> 00:06:36,479
+موجودی در دوره، بنابراین می توانید
+
+173
+00:06:36,479 --> 00:06:39,600
+دوره مورد نظر خود را نیز انتخاب کنید تا بتوانید
+
+174
+00:06:39,600 --> 00:06:42,440
+همه چیزهایی را که در آنجا وجود دارد مشاهده کنید،
+
+175
+00:06:42,440 --> 00:06:44,460
+به طور مشابه، ما نیز سن
+
+176
+00:06:44,460 --> 00:06:46,380
+قابل دریافت و پرداخت را در
+
+177
+00:06:46,380 --> 00:06:49,199
+اینجا داریم، در این مورد، این فاکتورها
+
+178
+00:06:49,199 --> 00:06:51,600
+و صورت حساب هایی هستند که هنوز در آن زمان باز هستند.
+
+179
+00:06:51,600 --> 00:06:54,360
+اینجا از امروز است و من می‌توانم
+
+180
+00:06:54,360 --> 00:06:57,240
+فاکتورها و صورت‌حساب‌هایی را که باید پرداخت کنم را ببینم،
+
+181
+00:06:57,240 --> 00:06:59,340
+
+182
+00:06:59,340 --> 00:07:01,080
+بنابراین در اینجا شما دسته‌های مختلفی دارید که
+
+183
+00:07:01,080 --> 00:07:03,419
+می‌توانید آن‌ها را تغییر دهید اگر می‌خواهید دسته‌های
+
+184
+00:07:03,419 --> 00:07:05,759
+خود را داشته باشید، اما این استاندارد
+
+185
+00:07:05,759 --> 00:07:07,919
+از 30 روز بعد از 60 است.  روز و غیره،
+
+186
+00:07:07,919 --> 00:07:10,919
+بنابراین من به راحتی می توانم آنچه را که باید
+
+187
+00:07:10,919 --> 00:07:13,979
+پرداخت شود و نه با کلیک کردن در اینجا، بنابراین
+
+188
+00:07:13,979 --> 00:07:15,419
+بسیار خوب است،
+
+189
+00:07:15,419 --> 00:07:18,240
+همانطور که شما
+
+190
+00:07:18,240 --> 00:07:20,220
+گزارش های پیگیری و همچنین در مورد
+
+191
+00:07:20,220 --> 00:07:22,740
+مشتریان را دارید که می توانید از جایی که می توانید
+
+192
+00:07:22,740 --> 00:07:26,639
+برای هر کدام پیدا کنید استفاده کنید.  مشتری می‌توانید یک ایمیل ارسال کنید،
+
+193
+00:07:26,639 --> 00:07:30,000
+اوهوم که می‌توانید به
+
+194
+00:07:30,060 --> 00:07:31,560
+
+195
+00:07:31,560 --> 00:07:32,880
+طور خودکار برای مشتری خود ایمیل ارسال کنید تا به
+
+196
+00:07:32,880 --> 00:07:34,620
+آنها یادآوری کنید که می‌توانید
+
+197
+00:07:34,620 --> 00:07:36,300
+فاکتورهای شما را پرداخت کنند،
+
+198
+00:07:36,300 --> 00:07:38,460
+اما بازگشت به گزارش هر
+
+199
+00:07:38,460 --> 00:07:41,160
+پرداختنی به طور مشابه همان چیزی است که ما
+
+200
+00:07:41,160 --> 00:07:42,720
+سود ارزی محقق نشده داریم.  و
+
+201
+00:07:42,720 --> 00:07:45,720
+ضرر در اینجا که همچنین بسیار خوب است،
+
+202
+00:07:45,720 --> 00:07:47,460
+باید بگویم زیرا آنچه قرار است
+
+203
+00:07:47,460 --> 00:07:49,319
+اتفاق بیفتد odoo همه
+
+204
+00:07:49,319 --> 00:07:52,560
+ورودی‌های باز را در یک تاریخ خاص با
+
+205
+00:07:52,560 --> 00:07:53,940
+ارز دیگری دریافت می‌کند
+
+206
+00:07:53,940 --> 00:07:55,680
+و ورودی تعدیل را به شما پیشنهاد می‌کند
+
+207
+00:07:55,680 --> 00:07:57,780
+و شما باید
+
+208
+00:07:57,780 --> 00:08:00,599
+امکان تغییر در نهایت
+
+209
+00:08:00,599 --> 00:08:02,580
+نرخ‌هایی که من برای این گزارش‌ها استفاده کرده‌ام،
+
+210
+00:08:02,580 --> 00:08:04,680
+بنابراین اگر
+
+211
+00:08:04,680 --> 00:08:06,900
+در گروهی از شرکت‌ها کار می‌کنید و می‌خواهید از
+
+212
+00:08:06,900 --> 00:08:09,060
+همان نرخ استفاده کنید، می‌توانم
+
+213
+00:08:09,060 --> 00:08:11,520
+فقط این نرخ را اینجا اعمال کنم یا به
+
+214
+00:08:11,520 --> 00:08:13,080
+من هشدار کوچکی بدهد.  بگویید که من
+
+215
+00:08:13,080 --> 00:08:15,180
+آن را تغییر داده ام اما سپس خواهید دید که
+
+216
+00:08:15,180 --> 00:08:17,819
+تنظیم من اینجاست و من فقط می توانم
+
+217
+00:08:17,819 --> 00:08:20,639
+برای ورودی تنظیم خود اینجا را کلیک کنم و
+
+218
+00:08:20,639 --> 00:08:22,740
+این کار را برای من رزرو می کنم بدیهی است که
+
+219
+00:08:22,740 --> 00:08:24,900
+باید ژورنال خود را انتخاب کنم که اوه
+
+220
+00:08:24,900 --> 00:08:29,099
+بله محقق نشده است.  ارز به
+
+221
+00:08:29,099 --> 00:08:30,479
+حساب هزینه و غیره و شما
+
+222
+00:08:30,479 --> 00:08:32,159
+اینجا تاریخ رزرو و
+
+223
+00:08:32,159 --> 00:08:34,679
+تاریخ برگشت را می بینید بدیهی است روز بعد
+
+224
+00:08:34,679 --> 00:08:37,380
+تا تاثیری در pnm من نداشته باشد
+
+225
+00:08:37,380 --> 00:08:40,380
+صحبت از نرخ ارز در
+
+226
+00:08:40,380 --> 00:08:43,320
+تنظیمات شما امکان
+
+227
+00:08:43,320 --> 00:08:46,560
+فعال کردن متفاوت را دارید.  ارزها، بنابراین اگر
+
+228
+00:08:46,560 --> 00:08:48,720
+اینجا را کلیک کنید، لیست کامل
+
+229
+00:08:48,720 --> 00:08:50,339
+ارزهای موجود را خواهید داشت، همانطور که می
+
+230
+00:08:50,339 --> 00:08:52,320
+بینید تعداد کمی از آنها وجود دارد، بنابراین
+
+231
+00:08:52,320 --> 00:08:55,080
+اگر می خواهید از آنها استفاده کنید، باید آنها را قبلا فعال کنید
+
+232
+00:08:55,080 --> 00:08:58,200
+و اگر من این 1 گیگابیت در ثانیه را بگیرم،
+
+233
+00:08:58,200 --> 00:09:00,180
+همه را اینجا پیدا خواهید کرد.  نرخ های مبادله ای
+
+234
+00:09:00,180 --> 00:09:02,880
+که در اینجا وجود دارد،
+
+235
+00:09:02,880 --> 00:09:04,740
+در صورت تمایل می توانید آنها را به صورت دستی وارد کنید، اما همچنین می توانید
+
+236
+00:09:04,740 --> 00:09:08,300
+انتخاب کنید که آنها به طور
+
+237
+00:09:09,019 --> 00:09:11,220
+خودکار توسط منبع دیگری به روز شوند.
+
+238
+00:09:11,220 --> 00:09:13,860
+
+239
+00:09:13,860 --> 00:09:15,899
+
+240
+00:09:15,899 --> 00:09:18,480
+بازه زمانی
+
+241
+00:09:18,480 --> 00:09:21,360
+که آیا می‌خواهم روزانه به صورت هفتگی اتفاق بیفتد
+
+242
+00:09:21,360 --> 00:09:23,160
+یا به صورت دستی اگر بخواهم می‌توانم هر بار این کار را خودم انجام دهم،
+
+243
+00:09:23,160 --> 00:09:25,380
+اما این کار خیلی کارآمد به نظر نمی‌رسد،
+
+244
+00:09:25,380 --> 00:09:28,440
+بنابراین اگر می‌خواهم اینجا را به‌روزرسانی کنم فقط می‌توانم روزانه انتخاب کنم،
+
+245
+00:09:28,440 --> 00:09:29,940
+فقط باید
+
+246
+00:09:29,940 --> 00:09:32,459
+روی فلش دوتایی کلیک کنم.  و سپس من می خواهم
+
+247
+00:09:32,459 --> 00:09:33,800
+آخرین نرخ ها را برای من بیاورم،
+
+248
+00:09:33,800 --> 00:09:37,700
+
+249
+00:09:38,839 --> 00:09:41,580
+برنامه استهلاک خوب است، متأسفیم که
+
+250
+00:09:41,580 --> 00:09:43,500
+در ویدیوی قبلی در مورد آن صحبت کردیم، بنابراین مطمئن شوید که آن را
+
+251
+00:09:43,500 --> 00:09:45,180
+بررسی کنید تا
+
+252
+00:09:45,180 --> 00:09:47,820
+در اینجا در مورد آن صحبت نکنم این
+
+253
+00:09:47,820 --> 00:09:49,920
+هزینه های مجاز نیز خوب است  یکی
+
+254
+00:09:49,920 --> 00:09:52,440
+در اینجا دسته‌های مختلف
+
+255
+00:09:52,440 --> 00:09:54,420
+این هزینه‌های مجاز و ورودی‌های
+
+256
+00:09:54,420 --> 00:09:56,399
+مرتبط با آن را با نرخ‌های
+
+257
+00:09:56,399 --> 00:09:58,440
+
+258
+00:09:58,440 --> 00:10:00,959
+تشخیص بله که می‌توانید داشته باشید، پیدا خواهید کرد، بنابراین
+
+259
+00:10:00,959 --> 00:10:03,000
+مقدار غیرمجاز خود را در اینجا خواهید داشت، بنابراین
+
+260
+00:10:03,000 --> 00:10:06,360
+این نیز واقعاً خوب است
+
+261
+00:10:06,360 --> 00:10:09,779
+و بله همین است.  برای گزارش‌هایی
+
+262
+00:10:09,779 --> 00:10:11,220
+که می‌خواستم ببینم سایر گزارش‌ها
+
+263
+00:10:11,220 --> 00:10:13,560
+بسیار خاص کشور هستند، بنابراین
+
+264
+00:10:13,560 --> 00:10:15,839
+امروز در مورد این موضوع صحبت نمی‌کنم،
+
+265
+00:10:15,839 --> 00:10:17,760
+بنابراین شما بروید اوه این بود برای
+
+266
+00:10:17,760 --> 00:10:19,620
+گزارش‌ها
+
+267
+00:10:19,620 --> 00:10:22,640
+شما را در ویدیوی بعدی می‌بینم
+

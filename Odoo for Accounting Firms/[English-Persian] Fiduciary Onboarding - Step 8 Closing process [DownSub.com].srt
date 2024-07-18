@@ -1,0 +1,1342 @@
+1
+00:00:01,380 --> 00:00:03,840
+hi and welcome back to this series of  how to implement audio Accounting in 10  easy steps this video is all going to be  about step 8 closing so we're going to  be talking about cutoff entries deferred  revenues and charges depreciation and so  on  so let's dive in our database and let's  start with our accounting application  when you go here in reporting a new  report that we have you know do 16 is  the journal report  when you come here you will see a view  of all the journals that you have so you  can select the year the period that you  want to see you can select the journals  specifically that you want or you can  even hear a sort by date Group by month  and so on okay so I'm just going to  start here with this my sales Journal so  I have this view where I can see all the  invoices that I have in my accounting  and I can click here on Journal items  if I do this I have this view where I  can see the journal entry with the  accounts that's been used partners and  so on so it's quite a nice view and  interesting View  but imagine that I have made a mistake  at the end of the the year we realized  when I'm controlling everything that  actually all these bookings were  actually on the wrong  um accounts so you know do you have now  the possibility to do some math edit and  I can select all my entries and I can  change for instance the account here it  wasn't the 7 000 that I wanted to use  which is a typical uh  profit account in Belgium but I'm going  to use this one instead okay I'll do  sales are you sure you want to do this  obviously and I say okay this is what I  want to do and you can see that now all  my entries have been booked on this  account if I open the invoice now  I will see in the chatter here Honda  that I have changed this account from  this one to this one okay and I can't  change this or erase this so this stays  here in the chatter so you will always  be informed of what's happened and when  all right let's go back to this view the  account is not the only thing that you  can change you can also change for  instance the label if you made a typo  it's going to be annoying or a wrong  description that you can change that in  math as well and you can change the uh  analytical counts as well if you wanted  to okay and the same way this will be  displayed in the charter so you know  what's been changed by who okay so I'm  not going to do more than this this is  possible to change these accounts  because I don't have a log date yet on  my period  so you know do you find here under  accounting either your different log  dates  there are three of them and you see that  everything is empty so this is why I was  able to modify some journal entries that  I have booked before here the tax return  log date will be if I set a date here  for instance the end of December  I will not be able to post journal  entries that have a vat impact  so similarly if I was to create my tax  report this look date will appear here  automatically and the period will be  locked  this one the journal entry is located is  to set a date let's say I don't want  anyone else my team for instance to book  entries for over the last year because  I'm busy reviewing the accounts and I  don't want anyone to change anything  anymore so I can just set a date here  and then anybody will be stopped from  posting entries in the accounting except  for the users with the higher access  rights and here all users log date so  let's say I'm done with my review my  accounts for last year are good  um I have sent them to demonstration and  I want to make sure that nobody posts  anything anymore even myself so I can  just use the log date here okay so I can  I'm just going to remove this here  so we can keep working because my  closing is not done  so if I go back to my channel report I'm  just going to take now the vendor bills  for uh the example I can open my journal  items and I see here all the bills that  we have processed before  I can select one at random for instance  this one  and go in the journal items  and say for instance okay uh  okay this one was not the best example  I'm gonna take another one let me take  one in here  here in the journal items I have this  link for the cutoff so directly from the  invoice I can book my cutoff right here  I don't have to wait until the end of  the year I can do it when I post my  entry if I click here I'll do is going  to come up with the screen so I can  choose a recognition date so in this  case I'm going to choose  this one I'm gonna take the 31st of  December and an account I'm going to use  this one for Belgium for instance  and I can choose also the amount so  either I want 100 of this bill to be  recognized then or I can choose I could  say 50 for instance if it was only for a  specific period but I'm just going to  leave it as such I can also change the  amount if I want to but this is not uh  mandatory and then you can choose your  Journal if you want to use a different  Journal but this one is fine to me and  hero is going to show you what's  actually going to be booked so you will  have your entry here at the last day of  the year and then the adjusting entry at  the date of the invoice  again you can create your journal  entries and then you will find them here  and they are posted  so that was for the cutoff if I come  back here  um imagine that uh  you want to change also you have some  invoices that you want to uh  book for you haven't received the  invoice yet but you want to book them  already you can select a few of them  and click here on action and you can do  an automatic entry  the same Principle as before this is  about to change the period so my  recognition date would be then last  no I want to recognize it last year  sorry and the  account is also here to be selected the  same Principle as before the journal is  vendor bills and odoo is going to  propose the adjusting entry for you and  then the correction at the next date  okay and then you create all journal  entries at the same time  something else that uh is interesting in  my closing is the Deferred charges so if  I take this example for instance  I have here on my invoice immediately a  different expenses that has been created  because I've been using this account so  if I open this account you will see that  I have here in the automation tab  I have told audio that I want to create  a different expense in draft  whenever I book something on this  account  so this is why when I go back to my bill  you can see here I have booked this bill  on this account and I do has created for  me automatically a deferred expense if I  click here it's in red because it's  still in draft as I stated in my  settings  and when I come here I have the expense  that I want to book so I can choose this  is the original value coming from the  the bill the acquisition date and I can  choose a model that I have created  before so here I have a few in this case  I'm just going to choose this one for  instance we're going to go through the  model in a minute  and you will see the odoo is going to  fill out automatically all these fields  if I confirm this or I can compute the  expense first just to see that it's okay  and you will see here that Ado is going  to prepare for me all the journal  entries that are going to be booked  automatically  once I post this okay so that's very  convenient I don't have to do it every  month it's already here and these models  they actually come from here  so you have the possibility to create a  deferred revenue model but also a  expense model in this case they are very  similar obviously the accounts are  different but in this case I'm going to  stick to my deferred expense and you see  here that I already have created three  different models for this training okay  so basically you give it a name the  default expense account is the same is  this one for Belgium and then you can  choose where you want the entries to be  booked based on  um  yeah the expense that you're trying to  do and you can choose the periods so if  I take this one for instance I'm going  to open it so basically yeah you give it  a name you choose the number of  recognition sorry a good example would  be also insurance for instance over 12  months and then you choose the account  where you want to book it so this is  really nice also to save some time  because as soon as you book the invoice  you can already select the model and  make sure that audio will book for you  automatically all the answers you don't  have to think about it anymore  in the same view  you can also think about assets so when  you book an entry an invoice for  instance I'm going to take this one  no this one sorry uh  where is my cool blue invoice this one  when you book  an asset so in this case I had a bill  for a laptop that is booked on my  account here so if I open this one it's  going to be quite similar I have an  automation tab on which I say that I  want to create and validate  an asset model that's called laptop so  if I go and see this model  that I can also find here on the asset  model in case you're looking for it  so basically it's the same principle you  give it a name in this case laptop and  then you choose the method so I know  that for all the laptops that I'm gonna  buy  I want to use the same methods so here I  choose a straight line over 60 months  constant periods but there are different  options that you can choose if you want  to  and obviously you have to select the  accounts that you want to use so  specifically here in Belgium these are  the two that I want and the journal so  here I created a specific journal for  jupitation so I can identify very  quickly these entries  so if I go back to my  bill  I have here also a smart button you see  here the difference there it's already  in Gray because it's already validated  because that's also an option that I  selected I didn't ask to put it in draft  but to put it automatically and you will  find here in the assets all the  information from the bill so the  original value when I acquired this  laptop and you can see here the asset  model is going to be applied so I could  eventually change this if I wanted to  but this is just coming from the model  that I just showed you so I'm going to  find the method the duration and so on  that is going to be applied to this  asset  and you can see here that I already have  five entries that have been booked I can  find them also here in the depreciation  board and basically what's going to  happen is Odo is going to calculate for  you the depreciation and it's going to  post automatically all the entries every  month in this case because this is what  I selected and you see here the ones  that are in Black have already been  posted because I have a general entry  number right here and the others are  just going to be booked automatically  every month so once I've bought my asset  I don't need to pay attention to the  depreciation anymore because it is going  to do that for me that's so convenient  so I can look here and I can find here  also all the entries related to this  asset and I can see the ones that have  been posted all the way until the end of  December the next one will be posted in  January  very quickly  for my assets I can also look here in my  reporting to find my depreciation  schedule just to make sure that  everything is okay and you will find  here in this view my laptop is here and  I will find the acquisition date of all  the assets when I first study  depreciation so at the end of the months  when I bought it the method that is used  and the duration and then I have here my  asset value the depreciation and the  book value I could also  add the unposted entries for instance  and if I wanted to see the book value of  my assets at the end of next year for  instance I could go here and custom and  change the date  to make sure that I have a good view of  what my  Book value is going to be next year and  then you see here automatically or do  has calculated that for me so it's  pretty handy and then you can obviously  save this and send it to you as a PDF or  an Excel to you your clients if you want  to  everything is here  all right so that was it for the closing  uh step uh I hope that everything was  clear and then we'll see you in a next  video
+سلام و به این سری از
+
+2
+00:00:03,840 --> 00:00:05,759
+نحوه پیاده سازی حسابداری صوتی در 10
+
+3
+00:00:05,759 --> 00:00:08,460
+مرحله آسان خوش آمدید. این ویدیو همه
+
+4
+00:00:08,460 --> 00:00:11,639
+در مورد مرحله 8 بسته شدن است، بنابراین ما
+
+5
+00:00:11,639 --> 00:00:14,219
+در مورد ورودی های قطع شده و
+
+6
+00:00:14,219 --> 00:00:16,260
+درآمدهای معوق و استهلاک هزینه ها و غیره صحبت خواهیم کرد،
+
+7
+00:00:16,260 --> 00:00:16,980
+
+8
+00:00:16,980 --> 00:00:20,400
+پس بیایید شیرجه بزنیم.  در پایگاه داده ما و اجازه دهید
+
+9
+00:00:20,400 --> 00:00:23,340
+با برنامه حسابداری خود شروع کنیم
+
+10
+00:00:23,340 --> 00:00:25,260
+وقتی به اینجا می روید و گزارش جدیدی را گزارش می دهیم
+
+11
+00:00:25,260 --> 00:00:27,660
+که ما می دانیم 16
+
+12
+00:00:27,660 --> 00:00:29,699
+گزارش مجله است
+
+13
+00:00:29,699 --> 00:00:32,279
+وقتی به اینجا می آیید نمایی
+
+14
+00:00:32,279 --> 00:00:34,260
+از همه مجلاتی را که دارید می بینید تا
+
+15
+00:00:34,260 --> 00:00:36,600
+بتوانید انتخاب کنید  سالی که می‌خواهید
+
+16
+00:00:36,600 --> 00:00:39,059
+ببینید، می‌توانید مجلاتی را
+
+17
+00:00:39,059 --> 00:00:41,520
+که می‌خواهید به‌طور خاص انتخاب کنید یا
+
+18
+00:00:41,520 --> 00:00:44,280
+حتی می‌توانید مرتب‌سازی بر اساس تاریخ را گروه به ماه بشنوید
+
+19
+00:00:44,280 --> 00:00:46,440
+و به همین ترتیب خوب است، بنابراین من فقط می‌خواهم از
+
+20
+00:00:46,440 --> 00:00:49,920
+اینجا با این مجله فروش خود شروع کنم.
+
+21
+00:00:49,920 --> 00:00:51,660
+این نمای را داشته باشم که می توانم تمام
+
+22
+00:00:51,660 --> 00:00:55,559
+فاکتورهایی را که در حسابداری خود دارم ببینم
+
+23
+00:00:55,559 --> 00:00:59,039
+و اگر این کار را انجام دهم می توانم روی موارد مجله کلیک کنم.
+
+24
+00:00:59,039 --> 00:01:01,440
+
+25
+00:01:01,440 --> 00:01:02,940
+
+26
+00:01:02,940 --> 00:01:04,559
+
+27
+00:01:04,559 --> 00:01:07,680
+این یک منظره بسیار زیبا و
+
+28
+00:01:07,680 --> 00:01:08,880
+نمای جالب است،
+
+29
+00:01:08,880 --> 00:01:11,460
+اما تصور کنید که من
+
+30
+00:01:11,460 --> 00:01:14,340
+در پایان سالی که متوجه شدیم
+
+31
+00:01:14,340 --> 00:01:16,140
+وقتی همه چیز را کنترل می‌کنم که در
+
+32
+00:01:16,140 --> 00:01:18,360
+واقع همه این رزروها در
+
+33
+00:01:18,360 --> 00:01:20,100
+واقع روی
+
+34
+00:01:20,100 --> 00:01:22,740
+حساب‌های اشتباهی بوده‌اند، اشتباه کردم، بنابراین می‌دانید که آیا اکنون دارید؟
+
+35
+00:01:22,740 --> 00:01:24,840
+امکان انجام برخی ویرایش‌های ریاضی و
+
+36
+00:01:24,840 --> 00:01:27,540
+من می‌توانم همه ورودی‌هایم را انتخاب کنم و می‌توانم به عنوان
+
+37
+00:01:27,540 --> 00:01:29,580
+مثال حساب را در اینجا تغییر دهم.
+
+38
+00:01:29,580 --> 00:01:31,860
+
+39
+00:01:31,860 --> 00:01:34,619
+
+40
+00:01:34,619 --> 00:01:37,439
+
+41
+00:01:37,439 --> 00:01:39,479
+به جای آن از این یکی استفاده کنید خوب من فروش را انجام می دهم
+
+42
+00:01:39,479 --> 00:01:40,920
+اگر مطمئن هستید که می خواهید این کار را انجام دهید
+
+43
+00:01:40,920 --> 00:01:44,100
+و من می گویم بسیار خوب این کاری است که
+
+44
+00:01:44,100 --> 00:01:46,320
+می خواهم انجام دهم و می توانید ببینید که اکنون اگر فاکتور را باز کنم تمام
+
+45
+00:01:46,320 --> 00:01:48,360
+ورودی های من در این حساب رزرو شده اند.
+
+46
+00:01:48,360 --> 00:01:51,119
+حالا
+
+47
+00:01:51,119 --> 00:01:52,920
+در چت اینجا می بینم هوندا
+
+48
+00:01:52,920 --> 00:01:55,320
+که من این حساب را از
+
+49
+00:01:55,320 --> 00:01:57,479
+این یکی به این یکی تغییر داده ام خوب است و نمی توانم
+
+50
+00:01:57,479 --> 00:02:00,299
+این را تغییر دهم یا این را پاک کنم بنابراین این در
+
+51
+00:02:00,299 --> 00:02:02,100
+اینجا در چت باقی می ماند تا همیشه
+
+52
+00:02:02,100 --> 00:02:05,219
+از آنچه اتفاق افتاده و چه زمانی مطلع شوید.
+
+53
+00:02:05,219 --> 00:02:07,799
+بسیار خوب، اجازه دهید به این دیدگاه برگردیم،
+
+54
+00:02:07,799 --> 00:02:09,060
+حساب تنها چیزی نیست که
+
+55
+00:02:09,060 --> 00:02:11,819
+می توانید تغییر دهید، همچنین می توانید به عنوان
+
+56
+00:02:11,819 --> 00:02:14,400
+مثال برچسب را تغییر دهید اگر اشتباه تایپی داشته باشید،
+
+57
+00:02:14,400 --> 00:02:16,319
+آزاردهنده خواهد بود یا یک
+
+58
+00:02:16,319 --> 00:02:18,420
+توصیف اشتباه است که می توانید آن را در
+
+59
+00:02:18,420 --> 00:02:21,660
+ریاضی نیز تغییر دهید.  و می‌توانید
+
+60
+00:02:21,660 --> 00:02:23,760
+شمارش‌های تحلیلی uh را نیز تغییر دهید اگر می‌خواهید
+
+61
+00:02:23,760 --> 00:02:26,220
+خوب باشید و به همین ترتیب این
+
+62
+00:02:26,220 --> 00:02:29,160
+در منشور نمایش داده می‌شود تا بدانید
+
+63
+00:02:29,160 --> 00:02:32,400
+چه چیزی توسط چه کسی تغییر کرده است، بنابراین من
+
+64
+00:02:32,400 --> 00:02:35,280
+نمی‌خواهم بیش از این انجام دهم.
+
+65
+00:02:35,280 --> 00:02:37,080
+این حساب ها را تغییر دهید
+
+66
+00:02:37,080 --> 00:02:40,379
+زیرا من هنوز تاریخ ثبت نامی در پریود ندارم،
+
+67
+00:02:40,379 --> 00:02:41,940
+
+68
+00:02:41,940 --> 00:02:43,620
+بنابراین می دانید که آیا در اینجا زیر
+
+69
+00:02:43,620 --> 00:02:45,180
+حسابداری تاریخ های مختلف ثبت نام خود را پیدا می کنید،
+
+70
+00:02:45,180 --> 00:02:46,379
+
+71
+00:02:46,379 --> 00:02:48,720
+سه مورد از آنها وجود دارد و می بینید که
+
+72
+00:02:48,720 --> 00:02:50,459
+همه چیز خالی است، بنابراین به همین دلیل
+
+73
+00:02:50,459 --> 00:02:52,620
+توانستم  برخی از ورودی‌های مجله‌ای را که
+
+74
+00:02:52,620 --> 00:02:55,200
+قبلاً رزرو کرده‌ام، در اینجا اصلاح کنید،
+
+75
+00:02:55,200 --> 00:02:57,980
+تاریخ ثبت اظهارنامه مالیاتی در صورتی خواهد بود که تاریخ را در اینجا تعیین کنم،
+
+76
+00:02:57,980 --> 00:03:00,540
+به عنوان مثال، پایان دسامبر،
+
+77
+00:03:00,540 --> 00:03:03,480
+
+78
+00:03:03,480 --> 00:03:06,620
+
+79
+00:03:06,620 --> 00:03:09,900
+اگر بخواهم ایجاد کنم، نمی‌توانم نوشته‌های مجله‌ای را که تأثیر مالیات بر ارزش افزوده دارند، به طور مشابه پست کنم.  گزارش مالیاتی من
+
+80
+00:03:09,900 --> 00:03:11,819
+این تاریخ نگاه به طور خودکار در اینجا ظاهر می شود
+
+81
+00:03:11,819 --> 00:03:13,739
+و دوره
+
+82
+00:03:13,739 --> 00:03:15,060
+قفل می شود
+
+83
+00:03:15,060 --> 00:03:17,819
+این یکی که ورودی مجله قرار دارد برای
+
+84
+00:03:17,819 --> 00:03:20,340
+تعیین تاریخی است.
+
+85
+00:03:20,340 --> 00:03:23,340
+
+86
+00:03:23,340 --> 00:03:25,680
+
+87
+00:03:25,680 --> 00:03:27,900
+من مشغول بررسی حساب‌ها هستم و
+
+88
+00:03:27,900 --> 00:03:28,920
+
+89
+00:03:28,920 --> 00:03:31,200
+دیگر نمی‌خواهم کسی چیزی را تغییر دهد، بنابراین می‌توانم فقط یک تاریخ را در اینجا تعیین کنم
+
+90
+00:03:31,200 --> 00:03:34,440
+و بعد از آن همه از
+
+91
+00:03:34,440 --> 00:03:36,480
+ارسال مطالب در حسابداری منع می‌شوند به جز
+
+92
+00:03:36,480 --> 00:03:38,879
+کاربرانی که حقوق دسترسی بالاتری دارند
+
+93
+00:03:38,879 --> 00:03:42,540
+و اینجا همه  تاریخ ثبت نام کاربران، پس
+
+94
+00:03:42,540 --> 00:03:45,180
+فرض کنید بررسی‌هایم را تمام کرده‌ام،
+
+95
+00:03:45,180 --> 00:03:48,060
+حساب‌های من برای سال گذشته خوب هستند
+
+96
+00:03:48,060 --> 00:03:50,400
+، من آنها را برای نمایش ارسال کردم و
+
+97
+00:03:50,400 --> 00:03:52,799
+می‌خواهم مطمئن شوم که دیگر هیچ‌کس
+
+98
+00:03:52,799 --> 00:03:55,560
+حتی خودم چیزی پست نمی‌کند، بنابراین می‌توانم
+
+99
+00:03:55,560 --> 00:03:58,200
+فقط از تاریخ ثبت اینجا استفاده کنم، خوب است.  بنابراین می‌توانم
+
+100
+00:03:58,200 --> 00:04:00,900
+این را در اینجا حذف می‌کنم
+
+101
+00:04:00,900 --> 00:04:03,060
+تا بتوانیم به کار خود ادامه دهیم، زیرا
+
+102
+00:04:03,060 --> 00:04:05,940
+بسته شدن من انجام نشده است،
+
+103
+00:04:05,940 --> 00:04:08,940
+بنابراین اگر به گزارش کانال خود برگردم،
+
+104
+00:04:08,940 --> 00:04:11,819
+اکنون فقط قبض‌های فروشنده را
+
+105
+00:04:11,819 --> 00:04:14,879
+به عنوان مثالی که می‌توانم باز کنم می‌گیرم.  اقلام ژورنال من
+
+106
+00:04:14,879 --> 00:04:18,238
+و من اینجا تمام صورتحساب هایی را که
+
+107
+00:04:18,238 --> 00:04:21,358
+پردازش کرده ایم می بینم قبل از اینکه
+
+108
+00:04:21,358 --> 00:04:24,419
+بتوانم به طور تصادفی یکی را انتخاب کنم، به عنوان مثال
+
+109
+00:04:24,419 --> 00:04:25,580
+این یکی را انتخاب کنم
+
+110
+00:04:25,580 --> 00:04:28,979
+و به اقلام ژورنال مراجعه کنم
+
+111
+00:04:28,979 --> 00:04:32,460
+و به عنوان مثال بگویم خوب،
+
+112
+00:04:32,460 --> 00:04:34,680
+خوب، این یکی بهترین مثالی نبود که
+
+113
+00:04:34,680 --> 00:04:36,960
+می خواهم بگیرم.  یکی دیگر به من اجازه دهید
+
+114
+00:04:36,960 --> 00:04:39,360
+یکی را در
+
+115
+00:04:39,360 --> 00:04:42,120
+اینجا در اقلام ژورنال وارد کنم. من این
+
+116
+00:04:42,120 --> 00:04:45,060
+پیوند را برای قطعنامه دارم، بنابراین مستقیماً از
+
+117
+00:04:45,060 --> 00:04:48,000
+فاکتور می توانم قطعنامه خود را همینجا رزرو کنم. لازم
+
+118
+00:04:48,000 --> 00:04:49,680
+نیست تا پایان
+
+119
+00:04:49,680 --> 00:04:51,500
+سال منتظر بمانم.  من ورودی خود را پست می کنم
+
+120
+00:04:51,500 --> 00:04:54,720
+اگر اینجا کلیک کنم، این کار را انجام می دهم که
+
+121
+00:04:54,720 --> 00:04:56,580
+با صفحه نمایش ظاهر می شود تا بتوانم
+
+122
+00:04:56,580 --> 00:04:59,580
+تاریخ شناسایی را انتخاب کنم، بنابراین در این
+
+123
+00:04:59,580 --> 00:05:02,120
+مورد،
+
+124
+00:05:02,120 --> 00:05:05,220
+این مورد را انتخاب می کنم، 31 دسامبر را انتخاب می کنم
+
+125
+00:05:05,220 --> 00:05:09,120
+و  حساب من می خواهم از
+
+126
+00:05:09,120 --> 00:05:12,000
+این یکی برای مثال برای بلژیک استفاده کنم
+
+127
+00:05:12,000 --> 00:05:13,919
+و می توانم مبلغ را نیز انتخاب کنم، بنابراین
+
+128
+00:05:13,919 --> 00:05:17,060
+یا می خواهم 100 از این صورت حساب
+
+129
+00:05:17,060 --> 00:05:20,580
+شناسایی شود یا می توانم انتخاب کنم که
+
+130
+00:05:20,580 --> 00:05:23,960
+مثلاً اگر فقط برای یک دوره خاص باشد می توانم بگویم 50
+
+131
+00:05:23,960 --> 00:05:25,860
+اما من فقط می‌خواهم
+
+132
+00:05:25,860 --> 00:05:28,020
+آن را به همین صورت بگذارم،
+
+133
+00:05:28,020 --> 00:05:31,020
+اگر بخواهم می‌توانم مقدار را نیز تغییر دهم، اما این
+
+134
+00:05:31,020 --> 00:05:33,000
+اجباری نیست و سپس
+
+135
+00:05:33,000 --> 00:05:34,680
+اگر می‌خواهید از مجله دیگری استفاده کنید، می‌توانید مجله خود را انتخاب کنید،
+
+136
+00:05:34,680 --> 00:05:36,780
+اما این برای من خوب است و
+
+137
+00:05:36,780 --> 00:05:38,280
+hero قرار است به شما نشان دهد که واقعاً چه چیزی
+
+138
+00:05:38,280 --> 00:05:40,500
+قرار است رزرو شود، بنابراین
+
+139
+00:05:40,500 --> 00:05:42,419
+در آخرین روز سال ورودی خود را در اینجا خواهید داشت
+
+140
+00:05:42,419 --> 00:05:44,400
+و سپس ورودی تنظیم کننده در
+
+141
+00:05:44,400 --> 00:05:46,320
+تاریخ فاکتور
+
+142
+00:05:46,320 --> 00:05:47,880
+دوباره می توانید ورودی های مجله خود را ایجاد کنید
+
+143
+00:05:47,880 --> 00:05:49,740
+و سپس آنها را پیدا خواهید کرد.  در اینجا
+
+144
+00:05:49,740 --> 00:05:52,860
+و آنها پست شده اند
+
+145
+00:05:52,860 --> 00:05:54,840
+به طوری که اگر من به اینجا برگردم برای قطع شدن بود.
+
+146
+00:05:54,840 --> 00:05:56,460
+
+147
+00:05:56,460 --> 00:05:59,820
+تصور کنید که اوه
+
+148
+00:05:59,820 --> 00:06:03,539
+شما می خواهید تغییر دهید همچنین چند
+
+149
+00:06:03,539 --> 00:06:06,720
+فاکتور دارید که می خواهید آنها را
+
+150
+00:06:06,720 --> 00:06:09,479
+رزرو کنید زیرا هنوز فاکتور را دریافت نکرده اید
+
+151
+00:06:09,479 --> 00:06:10,740
+اما می خواهید آنها را رزرو کنید.
+
+152
+00:06:10,740 --> 00:06:14,160
+در حال حاضر می توانید تعدادی از آنها را انتخاب کنید
+
+153
+00:06:14,160 --> 00:06:17,580
+و اینجا را کلیک کنید و روی عمل کلیک کنید و می توانید
+
+154
+00:06:17,580 --> 00:06:19,440
+یک ورودی خودکار به
+
+155
+00:06:19,440 --> 00:06:21,780
+همان اصل قبلی انجام دهید این
+
+156
+00:06:21,780 --> 00:06:24,120
+در حال تغییر دوره است تا
+
+157
+00:06:24,120 --> 00:06:29,100
+تاریخ شناسایی من آخرین باشد
+
+158
+00:06:29,100 --> 00:06:31,199
+نه من می خواهم آن را در سال گذشته تشخیص دهم
+
+159
+00:06:31,199 --> 00:06:34,860
+متأسفم و
+
+160
+00:06:34,860 --> 00:06:37,199
+حساب نیز در اینجا است تا انتخاب شود
+
+161
+00:06:37,199 --> 00:06:39,060
+همان اصل قبل از اینکه مجله
+
+162
+00:06:39,060 --> 00:06:41,160
+صورتحساب‌های فروشنده است و odo می‌خواهد
+
+163
+00:06:41,160 --> 00:06:43,500
+ورودی تنظیم را برای شما پیشنهاد کند و
+
+164
+00:06:43,500 --> 00:06:46,020
+سپس اصلاح را در تاریخ بعدی
+
+165
+00:06:46,020 --> 00:06:47,400
+درست می‌کند و سپس همه
+
+166
+00:06:47,400 --> 00:06:50,600
+ورودی‌های مجله را در همان زمان ایجاد می‌کنید.
+
+167
+00:06:51,000 --> 00:06:53,699
+چیز دیگری که در
+
+168
+00:06:53,699 --> 00:06:56,880
+بسته شدن من جالب است، هزینه های معوق است، بنابراین اگر
+
+169
+00:06:56,880 --> 00:06:59,160
+این مثال را برای مثال در نظر بگیرم،
+
+170
+00:06:59,160 --> 00:07:04,259
+بلافاصله هزینه های متفاوتی را در اینجا در صورتحساب خود دارم
+
+171
+00:07:04,259 --> 00:07:06,300
+که ایجاد شده است،
+
+172
+00:07:06,300 --> 00:07:08,100
+زیرا من از این حساب استفاده کرده ام، بنابراین
+
+173
+00:07:08,100 --> 00:07:11,460
+اگر این حساب را باز کنم، شما این کار را انجام خواهید داد.  ببینید که
+
+174
+00:07:11,460 --> 00:07:14,819
+من اینجا در برگه اتوماسیون دارم، به
+
+175
+00:07:14,819 --> 00:07:17,280
+صوتی گفته‌ام که می‌خواهم
+
+176
+00:07:17,280 --> 00:07:20,460
+
+177
+00:07:20,460 --> 00:07:22,139
+هر زمان که چیزی را با این حساب رزرو می‌کنم، هزینه متفاوتی را در پیش‌نویس ایجاد کنم،
+
+178
+00:07:22,139 --> 00:07:23,580
+
+179
+00:07:23,580 --> 00:07:26,400
+بنابراین به همین دلیل است که وقتی به صورت‌حساب خود برمی‌گردم،
+
+180
+00:07:26,400 --> 00:07:29,880
+می‌توانید اینجا ببینید که من این صورت‌حساب را رزرو کرده‌ام.
+
+181
+00:07:29,880 --> 00:07:32,099
+در این حساب و من
+
+182
+00:07:32,099 --> 00:07:34,800
+به طور خودکار برای من یک هزینه معوق ایجاد کرده است اگر
+
+183
+00:07:34,800 --> 00:07:36,300
+اینجا کلیک کنم قرمز است زیرا
+
+184
+00:07:36,300 --> 00:07:38,220
+همانطور که در تنظیماتم بیان کردم هنوز در پیش نویس است
+
+185
+00:07:38,220 --> 00:07:39,419
+
+186
+00:07:39,419 --> 00:07:42,539
+و وقتی به اینجا آمدم هزینه ای را دارم
+
+187
+00:07:42,539 --> 00:07:44,099
+که می خواهم رزرو کنم تا بتوانم انتخاب کنم  این
+
+188
+00:07:44,099 --> 00:07:45,840
+مقدار اصلی است که از
+
+189
+00:07:45,840 --> 00:07:48,240
+صورتحساب تاریخ خرید بدست می آید و من می توانم
+
+190
+00:07:48,240 --> 00:07:50,580
+مدلی را که قبلا ایجاد کرده ام انتخاب کنم،
+
+191
+00:07:50,580 --> 00:07:53,460
+بنابراین در اینجا من چند مورد را در این مورد دارم،
+
+192
+00:07:53,460 --> 00:07:55,199
+من فقط می خواهم این یکی را انتخاب کنم، به عنوان
+
+193
+00:07:55,199 --> 00:07:56,880
+مثال ما می خواهیم برویم
+
+194
+00:07:56,880 --> 00:07:58,259
+در عرض یک دقیقه از طریق مدل
+
+195
+00:07:58,259 --> 00:07:59,880
+خواهید دید که odoo به
+
+196
+00:07:59,880 --> 00:08:02,460
+طور خودکار همه این فیلدها را پر می کند
+
+197
+00:08:02,460 --> 00:08:04,560
+اگر من این را تأیید کنم یا می توانم
+
+198
+00:08:04,560 --> 00:08:06,599
+ابتدا هزینه را محاسبه کنم تا ببینم مشکلی ندارد
+
+199
+00:08:06,599 --> 00:08:09,419
+و در اینجا خواهید دید که Ado قرار است
+
+200
+00:08:09,419 --> 00:08:11,639
+برای آن آماده شود.  همه
+
+201
+00:08:11,639 --> 00:08:12,960
+نوشته‌های مجله‌ای که قرار است به‌طور خودکار رزرو شوند،
+
+202
+00:08:12,960 --> 00:08:14,060
+
+203
+00:08:14,060 --> 00:08:16,919
+پس از ارسال این، بسیار
+
+204
+00:08:16,919 --> 00:08:19,740
+راحت است، من مجبور نیستم هر
+
+205
+00:08:19,740 --> 00:08:23,099
+ماه این کار را انجام دهم، در حال حاضر اینجا هستند و این مدل‌ها در
+
+206
+00:08:23,099 --> 00:08:25,560
+واقع از اینجا آمده‌اند،
+
+207
+00:08:25,560 --> 00:08:28,259
+بنابراین شما این امکان را دارید که یک
+
+208
+00:08:28,259 --> 00:08:30,360
+مدل درآمد معوق و همچنین یک
+
+209
+00:08:30,360 --> 00:08:32,339
+مدل هزینه در این مورد آنها بسیار
+
+210
+00:08:32,339 --> 00:08:34,320
+شبیه به هم هستند، بدیهی است که حساب ها
+
+211
+00:08:34,320 --> 00:08:36,000
+متفاوت است، اما در این مورد من
+
+212
+00:08:36,000 --> 00:08:38,640
+به هزینه معوق خود پایبند هستم و در
+
+213
+00:08:38,640 --> 00:08:40,919
+اینجا می بینید که من قبلاً سه
+
+214
+00:08:40,919 --> 00:08:43,380
+مدل مختلف برای این آموزش ایجاد کرده ام، بسیار خوب
+
+215
+00:08:43,380 --> 00:08:45,839
+بنابراین اساساً شما نامی به آن می‌دهید،
+
+216
+00:08:45,839 --> 00:08:47,580
+حساب هزینه پیش‌فرض همان است که
+
+217
+00:08:47,580 --> 00:08:49,500
+برای بلژیک است و سپس می‌توانید
+
+218
+00:08:49,500 --> 00:08:51,480
+
+219
+00:08:51,480 --> 00:08:53,459
+بر اساس
+
+220
+00:08:53,459 --> 00:08:54,060
+
+221
+00:08:54,060 --> 00:08:55,800
+هزینه‌ای که می‌خواهید انجام دهید، جایی که می‌خواهید ورودی‌ها رزرو شوند، انتخاب کنید
+
+222
+00:08:55,800 --> 00:08:57,959
+و می‌توانید انتخاب کنید  دوره‌ها، بنابراین اگر
+
+223
+00:08:57,959 --> 00:08:59,459
+این یکی را برای مثال در نظر بگیرم، می‌خواهم
+
+224
+00:08:59,459 --> 00:09:01,500
+آن را باز کنم، بنابراین اساساً بله، شما
+
+225
+00:09:01,500 --> 00:09:03,080
+نامی برای آن می‌گذارید و تعداد
+
+226
+00:09:03,080 --> 00:09:06,300
+شناسایی را انتخاب می‌کنید، متأسفم، یک مثال خوب
+
+227
+00:09:06,300 --> 00:09:09,120
+برای مثال بیمه بیش از 12
+
+228
+00:09:09,120 --> 00:09:11,700
+ماه است و سپس حسابی را انتخاب می‌کنید که
+
+229
+00:09:11,700 --> 00:09:14,040
+در آن  می‌خواهید آن را رزرو کنید، بنابراین
+
+230
+00:09:14,040 --> 00:09:16,440
+برای صرفه‌جویی در زمان نیز بسیار خوب است،
+
+231
+00:09:16,440 --> 00:09:19,440
+زیرا به محض رزرو فاکتور
+
+232
+00:09:19,440 --> 00:09:21,600
+می‌توانید مدل را انتخاب کنید و
+
+233
+00:09:21,600 --> 00:09:23,100
+مطمئن شوید که صدا
+
+234
+00:09:23,100 --> 00:09:24,360
+به طور خودکار تمام پاسخ‌هایی را که
+
+235
+00:09:24,360 --> 00:09:27,200
+لازم نیست به آن فکر کنید برای شما رزرو می‌کند.  دیگر
+
+236
+00:09:27,240 --> 00:09:29,779
+در همان دیدگاه
+
+237
+00:09:29,779 --> 00:09:33,000
+می‌توانید به دارایی‌ها نیز فکر کنید، بنابراین وقتی
+
+238
+00:09:33,000 --> 00:09:35,640
+یک فاکتور را رزرو می‌کنید، برای
+
+239
+00:09:35,640 --> 00:09:38,820
+مثال، من این یکی را می‌گیرم،
+
+240
+00:09:38,820 --> 00:09:42,120
+نه این یکی، متأسفم،
+
+241
+00:09:42,120 --> 00:09:44,600
+
+242
+00:09:44,600 --> 00:09:46,500
+وقتی شما
+
+243
+00:09:46,500 --> 00:09:49,380
+دارایی را رزرو می‌کنید، فاکتور آبی جالب من کجاست.  در این مورد، من یک صورتحساب
+
+244
+00:09:49,380 --> 00:09:52,140
+برای یک لپ تاپ داشتم که در
+
+245
+00:09:52,140 --> 00:09:54,839
+حساب من در اینجا رزرو شده است، بنابراین اگر این مورد را باز کنم
+
+246
+00:09:54,839 --> 00:09:57,000
+کاملاً شبیه به آن است، یک
+
+247
+00:09:57,000 --> 00:10:00,000
+برگه اتوماسیون دارم که در آن می گویم که
+
+248
+00:10:00,000 --> 00:10:02,120
+می خواهم
+
+249
+00:10:02,120 --> 00:10:04,740
+یک مدل دارایی به نام لپ تاپ ایجاد و تأیید کنم.  بنابراین
+
+250
+00:10:04,740 --> 00:10:07,320
+اگر من بروم و این مدل را ببینم
+
+251
+00:10:07,320 --> 00:10:10,500
+که می توانم آن را در اینجا در مدل دارایی پیدا کنم
+
+252
+00:10:10,500 --> 00:10:13,019
+در صورتی که شما به دنبال آن هستید،
+
+253
+00:10:13,019 --> 00:10:15,000
+بنابراین اساساً این همان اصل است که
+
+254
+00:10:15,000 --> 00:10:16,980
+در این مورد لپ تاپ نامی برای آن بگذارید و
+
+255
+00:10:16,980 --> 00:10:19,200
+سپس روش را انتخاب کنید تا من بدانم
+
+256
+00:10:19,200 --> 00:10:22,080
+برای تمام لپ‌تاپ‌هایی که می‌خواهم
+
+257
+00:10:22,080 --> 00:10:23,000
+بخرم،
+
+258
+00:10:23,000 --> 00:10:26,220
+می‌خواهم از روش‌های مشابهی استفاده کنم، بنابراین در اینجا
+
+259
+00:10:26,220 --> 00:10:28,399
+یک خط مستقیم را در دوره‌های ثابت 60 ماهه انتخاب می‌کنم،
+
+260
+00:10:28,399 --> 00:10:30,660
+اما گزینه‌های مختلفی وجود دارد
+
+261
+00:10:30,660 --> 00:10:32,880
+که در صورت تمایل می‌توانید انتخاب کنید
+
+262
+00:10:32,880 --> 00:10:34,320
+
+263
+00:10:34,320 --> 00:10:36,360
+و بدیهی است که باید انتخاب کنید.
+
+264
+00:10:36,360 --> 00:10:37,620
+حساب‌هایی که می‌خواهید به‌طور
+
+265
+00:10:37,620 --> 00:10:39,779
+خاص در اینجا در بلژیک استفاده کنید، این
+
+266
+00:10:39,779 --> 00:10:43,019
+دو موردی هستند که من می‌خواهم و ژورنال، بنابراین
+
+267
+00:10:43,019 --> 00:10:44,640
+در اینجا یک ژورنال خاص برای jupitation ایجاد کردم
+
+268
+00:10:44,640 --> 00:10:46,620
+تا بتوانم خیلی
+
+269
+00:10:46,620 --> 00:10:48,779
+سریع این ورودی‌ها را شناسایی کنم،
+
+270
+00:10:48,779 --> 00:10:51,540
+بنابراین اگر به صورت حسابم برگردم،
+
+271
+00:10:51,540 --> 00:10:52,680
+
+272
+00:10:52,680 --> 00:10:55,260
+اینجا نیز دارم.  یک دکمه هوشمند که در
+
+273
+00:10:55,260 --> 00:10:56,459
+اینجا تفاوت را مشاهده می کنید، قبلاً
+
+274
+00:10:56,459 --> 00:10:58,560
+به رنگ خاکستری است زیرا قبلاً تأیید شده است
+
+275
+00:10:58,560 --> 00:11:00,180
+زیرا این نیز گزینه ای است که من
+
+276
+00:11:00,180 --> 00:11:02,459
+انتخاب کردم من نخواستم آن را در پیش نویس قرار دهم
+
+277
+00:11:02,459 --> 00:11:05,880
+بلکه به طور خودکار آن را قرار دهم و
+
+278
+00:11:05,880 --> 00:11:08,700
+در اینجا در دارایی ها همه موارد را پیدا خواهید کرد.
+
+279
+00:11:08,700 --> 00:11:09,899
+اطلاعات از صورتحساب، بنابراین
+
+280
+00:11:09,899 --> 00:11:12,060
+ارزش اصلی زمانی که من این
+
+281
+00:11:12,060 --> 00:11:14,100
+لپ تاپ را خریداری کردم و می توانید در اینجا ببینید که
+
+282
+00:11:14,100 --> 00:11:15,899
+مدل دارایی قرار است اعمال شود، بنابراین
+
+283
+00:11:15,899 --> 00:11:17,519
+اگر بخواهم در نهایت می توانم آن را تغییر دهم،
+
+284
+00:11:17,519 --> 00:11:19,620
+اما این فقط از مدلی است
+
+285
+00:11:19,620 --> 00:11:21,899
+که من به شما نشان دادم.  من قصد دارم
+
+286
+00:11:21,899 --> 00:11:23,940
+روش مدت زمان و غیره را پیدا کنم
+
+287
+00:11:23,940 --> 00:11:26,220
+که قرار است در مورد این دارایی اعمال شود
+
+288
+00:11:26,220 --> 00:11:27,779
+
+289
+00:11:27,779 --> 00:11:30,480
+و می‌توانید اینجا ببینید که من قبلاً
+
+290
+00:11:30,480 --> 00:11:32,820
+پنج ورودی دارم که رزرو شده‌اند، می‌توانم
+
+291
+00:11:32,820 --> 00:11:34,620
+آنها را اینجا در تابلوی استهلاک پیدا کنم
+
+292
+00:11:34,620 --> 00:11:36,779
+و اساساً چه چیزی است.  اتفاق می
+
+293
+00:11:36,779 --> 00:11:38,640
+افتد این است که Odo
+
+294
+00:11:38,640 --> 00:11:40,440
+استهلاک را برای شما محاسبه می کند و در این مورد
+
+295
+00:11:40,440 --> 00:11:43,680
+هر ماه به طور خودکار همه ورودی ها را پست می کند
+
+296
+00:11:43,680 --> 00:11:45,420
+زیرا این همان چیزی است که
+
+297
+00:11:45,420 --> 00:11:47,880
+من انتخاب کردم و شما اینجا می بینید مواردی
+
+298
+00:11:47,880 --> 00:11:50,339
+که سیاه هستند قبلاً پست شده اند
+
+299
+00:11:50,339 --> 00:11:52,320
+زیرا من دارم  یک شماره ورودی کلی
+
+300
+00:11:52,320 --> 00:11:54,240
+درست در اینجا و بقیه
+
+301
+00:11:54,240 --> 00:11:55,560
+فقط به طور خودکار
+
+302
+00:11:55,560 --> 00:11:58,800
+هر ماه رزرو می شوند، بنابراین وقتی دارایی خود را خریدم
+
+303
+00:11:58,800 --> 00:12:01,440
+
+304
+00:12:01,440 --> 00:12:03,000
+دیگر نیازی به توجه به استهلاک ندارم زیرا
+
+305
+00:12:03,000 --> 00:12:05,279
+این کار برای من بسیار راحت است.
+
+306
+00:12:05,279 --> 00:12:08,160
+بنابراین می‌توانم اینجا را جستجو کنم و می‌توانم اینجا
+
+307
+00:12:08,160 --> 00:12:10,019
+تمام ورودی‌های مربوط به این
+
+308
+00:12:10,019 --> 00:12:12,300
+دارایی را پیدا کنم و می‌توانم مواردی را که
+
+309
+00:12:12,300 --> 00:12:14,459
+تا پایان دسامبر پست شده‌اند، ببینم،
+
+310
+00:12:14,459 --> 00:12:16,200
+مورد بعدی خیلی سریع در
+
+311
+00:12:16,200 --> 00:12:17,300
+ژانویه
+
+312
+00:12:17,300 --> 00:12:19,980
+
+313
+00:12:19,980 --> 00:12:23,880
+برای دارایی‌های من پست می‌شود.  همچنین می‌توانید در گزارش من اینجا را جستجو کنید
+
+314
+00:12:23,880 --> 00:12:25,560
+تا برنامه استهلاک خود را پیدا کنید
+
+315
+00:12:25,560 --> 00:12:26,940
+فقط برای اطمینان از اینکه
+
+316
+00:12:26,940 --> 00:12:29,100
+همه چیز خوب است و در اینجا خواهید دید که
+
+317
+00:12:29,100 --> 00:12:32,640
+لپ‌تاپ من اینجاست و
+
+318
+00:12:32,640 --> 00:12:34,380
+من در اولین مطالعه استهلاک تاریخ کسب همه دارایی‌ها را پیدا خواهم کرد.  در
+
+319
+00:12:34,380 --> 00:12:36,540
+
+320
+00:12:36,540 --> 00:12:38,880
+پایان ماه هایی
+
+321
+00:12:38,880 --> 00:12:41,220
+که آن را خریدم روش استفاده شده
+
+322
+00:12:41,220 --> 00:12:43,980
+و مدت زمان و سپس ارزش دارایی خود را در اینجا دارم
+
+323
+00:12:43,980 --> 00:12:46,139
+استهلاک و
+
+324
+00:12:46,139 --> 00:12:48,200
+ارزش دفتری را می توانم
+
+325
+00:12:48,200 --> 00:12:51,420
+به عنوان مثال ورودی های پست نشده را نیز اضافه کنم
+
+326
+00:12:51,420 --> 00:12:54,540
+و اگر می خواستم ارزش دفتری را ببینم.
+
+327
+00:12:54,540 --> 00:12:57,600
+دارایی‌های من در پایان سال آینده، برای
+
+328
+00:12:57,600 --> 00:13:00,420
+مثال، می‌توانم به اینجا بروم و تاریخ را سفارشی کنم و
+
+329
+00:13:00,420 --> 00:13:01,740
+تغییر دهم
+
+330
+00:13:01,740 --> 00:13:06,300
+تا مطمئن شوم که
+
+331
+00:13:06,300 --> 00:13:08,160
+
+332
+00:13:08,160 --> 00:13:10,800
+ارزش دفتری من در سال آینده چقدر خواهد بود و
+
+333
+00:13:10,800 --> 00:13:12,600
+سپس شما اینجا را به طور خودکار ببینید یا انجام دهید
+
+334
+00:13:12,600 --> 00:13:14,700
+محاسبه شده است.  که برای من
+
+335
+00:13:14,700 --> 00:13:16,380
+بسیار مفید است و پس از آن شما بدیهی است که می توانید
+
+336
+00:13:16,380 --> 00:13:18,540
+آن را ذخیره کنید و آن را به عنوان PDF یا
+
+337
+00:13:18,540 --> 00:13:20,639
+Excel برای شما مشتریان خود بفرستید، اگر می خواهید
+
+338
+00:13:20,639 --> 00:13:21,720
+
+339
+00:13:21,720 --> 00:13:24,600
+همه چیز در اینجا
+
+340
+00:13:24,600 --> 00:13:26,880
+درست است، بنابراین این برای مرحله پایانی بود، اوه،
+
+341
+00:13:26,880 --> 00:13:29,459
+اوه امیدوارم  که همه چیز
+
+342
+00:13:29,459 --> 00:13:31,680
+واضح بود و سپس شما را در ویدیوی بعدی خواهیم دید
+
+343
+00:13:31,680 --> 00:13:33,920
+

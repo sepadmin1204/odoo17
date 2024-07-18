@@ -1,0 +1,998 @@
+1
+00:00:00,840 --> 00:00:03,179
+hello hello hello welcome back this is  step five already in our 10 steps uh to  implement audio Accounting in an  accounting firm So today we're going to  be talking about vendor bills and the  use of the OCR the digitization of  documents right so let's go back in our  database  in our previous video as you remember we  have used the document application to  upload documents  and here I can find a document that my  client has uploaded it was a copy of all  its purchase bills from the last quarter  so if I open this document I can see  it's a bunch of invoices together all  right with this split PDF function here  above or do gives me the opportunity to  split my documents in different pages  you will see a little scissor here at  the bottom of the page I can click here  to see what the invoice is about  here for instance I can see that it's a  two page invoice so I'm just going to  remove the page break here by clicking  on the scissors  here I have also two pages but the  second page is actually uh yeah general  terms and conditions of this invoice so  I don't really need this one I'm just  going to untick this page and then the  last one is fine to me so now I have  four different  vendor bills  you will see here at the top of the  screen a series of buttons that I have  created for this demonstration and I  have one action here that's going to  allow me to create vendor bills and send  it to the accounting application because  that's the beauty of odoo everything is  integrated so even if I am in the  document application I can still create  accounting records right by clicking  here on this create fill button  so you will see that I only have this  one page remaining the one that I didn't  want the rest is already sent to the  accounting application I'm just going to  disregard this one and I have here the  four vendor bills that I have just  created  with the tags purchases and processed I  can already see the journal entry here  the reference to journal entry in the  accounting module  right so these ones are sent I can see  that I have here five new four new  invoices so I'm just going to select  these ones as well and I'm going to send  them to the accounting in the same way  because you will see here if I do it  like this I have here on the side also  the same actions as before  so I can simply click here and create  four new bills  and Urdu sends me directly to the  accounting application so  um you see already here that I have four  journal entries created in draft for  these invoices all right so let's go and  check it out I'm just going to go to the  accounting application  so the accounting application looks like  this you will see every case is a  journal so you can create as many  journals as you want and have them as  your favorites so that you have also the  The View that you want when you enter  the application  here I've got my purchase journal with  an email address that I can use as well  if I want to send uh  vendor bills directly in the journal  and I can see that I have eight bills to  validate all right so I'm just going to  click here and open this  um so  oops sorry I'm just going to go back to  my AWS 2 validate there you go  so you can see here all the bills that I  have sent from the document application  right to the accounting they are all in  draft obviously because  um I set it up so that it doesn't book  invoices automatically but you could do  that if you wanted to all right so I'm  just going to open this one  so basically I have to manually click on  this button for the OCR to get into  action and digitize this invoice if I  click here what's going to happen uh  it's actually that audio is going to  read this PDF here on the side and it's  going to find all the information that I  need to fill in this part of the screen  so it's going to look for information  about the vendor his address the vat  number the date of the vendor Bill  and also the information about prices  the product and everything that's on it  okay so  why audio is loading for my AIDS vendor  bills  um  this is something that is really cool  and I just want to point out that uh  this technology you need to buy credits  for this is not free so we will see in a  minute once this is done I will show you  in the settings where you can buy  credits every time you create a new  database you get 200 free credits to  test it out but you obviously might want  to purchase more  um so now you see that the OCR has  finished so we can see already the name  of the vendor as I was saying that is  here on the PDF the bill reference build  it accounting date the due date even and  then you can see here the invoice line  with the um odoo has chosen for me and a  a set account because this is a laptop  that I purchased from this shop  and the price I have here on the side my  PDF which is very handy because I can  just check everything based on this part  of the screen I can even Zoom a little  to see where the price so you can see  here that the price is the same so  that's very handy because I can just  control everything as iBook everything  at the same time  all right so as I was saying I wanted to  show you in the settings that for the  OCR you can purchase some credits so if  you go down in the settings you will see  the digitization menu which is here and  you have a link here to buy credit so if  you click here you will be taken to a  new page where you can actually purchase  different credits so the more you buy  the cheaper it gets and you can just  click on buy and give your bank  information and then you will have some  credits all right so I'm just going to  go back to my database  so  let's go back to our vendor builds  because now you will see I still have  eight wheels to validate  so here they are you can see now that  the OCR has given me all the information  that I wanted on these uh  invoices I can go through them  actually it's something that would be  quite nice if the client did this right  if you work together in the same  database your client can actually go on  the document application upload his  invoices and vendor bills for the last  quarter  and send them to the OCR in the  accounting application  and then you as an accountant you can  hear in the database and then you can  start reviewing what has been done all  right so this is a way of being more  efficient and then so yeah here for  instance you will see that audio gives  you some warnings sometimes in case  something is a little bit weird and in  this case it says to me that the bill  might be a duplicate on one of these  other bills okay so this invoice is okay  if I try to confirm it though and I  ignore this warning  is not going to let me do it which is  good  um and he says no before you book it  make sure to check that it's not a  duplicate because it looks a bit strange  to me so if I open this list I can see  the first line there's a number here so  it's been booked already and the status  is as posted  and then I have the second line which is  the one that I'm trying to post now and  indeed when I look at it I see that the  date is the same the partner is the same  the reference is the same and even the  amount is the same so the chances are  I've already booked this uh bill in the  past so thank you ODU for not letting me  book something twice I'm just going to  delete this entry  before I booked it so now it's all good  I can go back to my bills  and so on I can just go through all my  bills and control that everything is  okay  all right once that is done  um I can easily book everything together  by selecting all my entries here that  are still in draft and I can click here  on action  and post entries  in this way I'm going to be able to post  all the vendor bills at the same time in  just one click  you will see once Ado has posted  everything this screen here is empty  because I still have a filter on my  draft entry so they're no longer in  draft if I go back to my dashboard you  will see that I no longer have eight  bills to validate but I have eight bills  to pay  which are still the same bills as before  it's just that they they've changed  status so now they are all in posted  um they're still not paid as you can see  here  um so there you are I've posted all the  entries together at the same time and I  can find the entries here in the journal  items tab on the invoice itself so I can  see here the things that have been  booked  I still have the PDF here on the side  and I can see the accounts that have  been used the label uh even the tax  grids which is very handy and I can even  manage my code from here but this is for  another video probably step nine or  something  so  um there you are about the vendor bills  and the use of the OCR I think I have  shown you everything but if you have any  questions don't hesitate to contact us  so good luck and don't forget to buy  credits for your OCR
+سلام سلام سلام خوش آمدید این
+
+2
+00:00:03,179 --> 00:00:05,940
+مرحله پنجم است در حال حاضر در 10 مرحله ما برای
+
+3
+00:00:05,940 --> 00:00:07,319
+پیاده سازی حسابداری صوتی در یک
+
+4
+00:00:07,319 --> 00:00:09,960
+شرکت حسابداری بنابراین امروز ما
+
+5
+00:00:09,960 --> 00:00:12,120
+در مورد قبوض فروشنده و
+
+6
+00:00:12,120 --> 00:00:15,000
+استفاده از OCR برای دیجیتالی کردن
+
+7
+00:00:15,000 --> 00:00:17,640
+اسناد صحبت خواهیم کرد، پس بیایید به عقب برگردیم.  در
+
+8
+00:00:17,640 --> 00:00:19,740
+پایگاه داده ما
+
+9
+00:00:19,740 --> 00:00:22,920
+در ویدیوی قبلی خود همانطور که به یاد دارید ما از
+
+10
+00:00:22,920 --> 00:00:25,560
+برنامه سند برای بارگذاری اسناد استفاده کرده ایم
+
+11
+00:00:25,560 --> 00:00:27,960
+
+12
+00:00:27,960 --> 00:00:30,480
+و در اینجا می توانم سندی را پیدا کنم که
+
+13
+00:00:30,480 --> 00:00:33,239
+مشتری من بارگذاری کرده است، این یک کپی از تمام
+
+14
+00:00:33,239 --> 00:00:37,620
+صورتحساب های خرید آن در سه ماهه گذشته است،
+
+15
+00:00:37,620 --> 00:00:40,200
+بنابراین اگر این سند را باز کنم  من می توانم ببینم که
+
+16
+00:00:40,200 --> 00:00:44,760
+این یک دسته از فاکتورها با هم هستند
+
+17
+00:00:44,760 --> 00:00:47,700
+با این تابع PDF تقسیم شده در اینجا در
+
+18
+00:00:47,700 --> 00:00:51,000
+بالا یا به من این فرصت را می دهد که
+
+19
+00:00:51,000 --> 00:00:53,100
+اسناد خود را در صفحات مختلف تقسیم کنم.
+
+20
+00:00:53,100 --> 00:00:55,739
+یک قیچی کوچک در اینجا در
+
+21
+00:00:55,739 --> 00:00:58,079
+پایین صفحه خواهید دید. می توانم برای دیدن اینجا کلیک کنم.
+
+22
+00:00:58,079 --> 00:01:00,960
+
+23
+00:01:00,960 --> 00:01:03,120
+به عنوان مثال، فاکتور در اینجا در مورد چیست، من می توانم ببینم که این یک
+
+24
+00:01:03,120 --> 00:01:05,099
+فاکتور دو صفحه ای است، بنابراین من فقط می خواهم
+
+25
+00:01:05,099 --> 00:01:07,979
+با کلیک کردن بر روی قیچی، صفحه شکستن صفحه را حذف کنم، در
+
+26
+00:01:07,979 --> 00:01:10,320
+
+27
+00:01:10,320 --> 00:01:12,420
+اینجا نیز دو صفحه دارم، اما
+
+28
+00:01:12,420 --> 00:01:15,240
+صفحه دوم در واقع آه، بله شرایط عمومی است.
+
+29
+00:01:15,240 --> 00:01:17,760
+و شرایط این فاکتور، بنابراین
+
+30
+00:01:17,760 --> 00:01:19,080
+من واقعاً به آن نیازی ندارم، فقط می‌خواهم
+
+31
+00:01:19,080 --> 00:01:21,720
+تیک این صفحه را برداریم و سپس
+
+32
+00:01:21,720 --> 00:01:24,659
+آخرین مورد برای من خوب است، بنابراین اکنون
+
+33
+00:01:24,659 --> 00:01:26,420
+چهار
+
+34
+00:01:26,420 --> 00:01:28,500
+قبض فروشنده مختلف دارم که در
+
+35
+00:01:28,500 --> 00:01:30,180
+اینجا در بالای صفحه مشاهده خواهید کرد.
+
+36
+00:01:30,180 --> 00:01:32,460
+مجموعه‌ای از دکمه‌هایی که من
+
+37
+00:01:32,460 --> 00:01:34,680
+برای این نمایش ایجاد کرده‌ام و
+
+38
+00:01:34,680 --> 00:01:36,240
+یک اقدام در اینجا دارم که به
+
+39
+00:01:36,240 --> 00:01:38,880
+من اجازه می‌دهد صورت‌حساب‌های فروشنده را ایجاد کنم و
+
+40
+00:01:38,880 --> 00:01:41,340
+آن را به برنامه حسابداری ارسال کنم، زیرا
+
+41
+00:01:41,340 --> 00:01:43,020
+زیبایی odoo به همین دلیل است که همه چیز
+
+42
+00:01:43,020 --> 00:01:45,299
+یکپارچه شده است، بنابراین حتی اگر در
+
+43
+00:01:45,299 --> 00:01:46,860
+سند باشم.  برنامه من هنوز هم می توانم
+
+44
+00:01:46,860 --> 00:01:48,659
+سوابق حسابداری را درست با کلیک کردن
+
+45
+00:01:48,659 --> 00:01:52,680
+روی این دکمه ایجاد پر کردن اینجا ایجاد کنم،
+
+46
+00:01:52,680 --> 00:01:55,020
+بنابراین خواهید دید که من فقط این
+
+47
+00:01:55,020 --> 00:01:56,700
+یک صفحه باقی مانده است، صفحه ای که نمی
+
+48
+00:01:56,700 --> 00:01:59,640
+خواستم بقیه قبلاً به
+
+49
+00:01:59,640 --> 00:02:01,020
+برنامه حسابداری که من می روم ارسال شده است.  برای
+
+50
+00:02:01,020 --> 00:02:03,600
+نادیده گرفتن این یکی و من در اینجا
+
+51
+00:02:03,600 --> 00:02:05,579
+چهار قبض فروشنده را دارم که به تازگی
+
+52
+00:02:05,579 --> 00:02:06,479
+
+53
+00:02:06,479 --> 00:02:10,080
+با برچسب‌های خرید و پردازش آن‌ها ایجاد کرده‌ام و پردازش کرده‌ام،
+
+54
+00:02:10,080 --> 00:02:12,480
+قبلاً می‌توانم ورودی مجله را اینجا ببینم،
+
+55
+00:02:12,480 --> 00:02:14,040
+مرجع ثبت مجله در
+
+56
+00:02:14,040 --> 00:02:15,900
+ماژول حسابداری
+
+57
+00:02:15,900 --> 00:02:18,959
+درست است، بنابراین این صورت‌حساب‌ها ارسال می‌شوند و می‌توانم ببینم
+
+58
+00:02:18,959 --> 00:02:21,959
+که  من اینجا پنج فاکتور جدید چهار فاکتور جدید دارم،
+
+59
+00:02:21,959 --> 00:02:23,700
+بنابراین من فقط می خواهم
+
+60
+00:02:23,700 --> 00:02:25,560
+این فاکتورها را نیز انتخاب کنم و
+
+61
+00:02:25,560 --> 00:02:28,140
+آنها را به همان روش به حسابداری بفرستم
+
+62
+00:02:28,140 --> 00:02:30,120
+زیرا اگر این کار را به این صورت انجام دهم اینجا را مشاهده خواهید کرد.
+
+63
+00:02:30,120 --> 00:02:32,580
+طرف نیز
+
+64
+00:02:32,580 --> 00:02:34,440
+همان اقدامات قبلی را انجام می دهد،
+
+65
+00:02:34,440 --> 00:02:37,500
+بنابراین من به سادگی می توانم اینجا کلیک کنم و
+
+66
+00:02:37,500 --> 00:02:39,480
+چهار صورت حساب جدید ایجاد کنم
+
+67
+00:02:39,480 --> 00:02:41,700
+و اردو من را مستقیماً به
+
+68
+00:02:41,700 --> 00:02:44,099
+برنامه حسابداری می فرستد، بنابراین
+
+69
+00:02:44,099 --> 00:02:45,720
+شما قبلاً اینجا را می بینید که من چهار
+
+70
+00:02:45,720 --> 00:02:47,580
+مدخل مجله به صورت پیش نویس برای
+
+71
+00:02:47,580 --> 00:02:49,680
+این فاکتورها ایجاد شده است، پس بیایید  بروید و
+
+72
+00:02:49,680 --> 00:02:52,019
+آن را بررسی کنید من فقط می خواهم به
+
+73
+00:02:52,019 --> 00:02:54,540
+برنامه حسابداری بروم
+
+74
+00:02:54,540 --> 00:02:56,459
+تا برنامه حسابداری به این شکل به نظر برسد
+
+75
+00:02:56,459 --> 00:03:00,060
+شما خواهید دید که هر مورد یک
+
+76
+00:03:00,060 --> 00:03:01,920
+مجله است بنابراین می توانید هر تعداد
+
+77
+00:03:01,920 --> 00:03:04,739
+مجله که می خواهید ایجاد کنید و آنها را به عنوان
+
+78
+00:03:04,739 --> 00:03:06,599
+موارد دلخواه خود داشته باشید تا شما  همچنین
+
+79
+00:03:06,599 --> 00:03:08,099
+وقتی وارد برنامه می‌شوید، نمای مورد نظر خود را داشته باشید،
+
+80
+00:03:08,099 --> 00:03:09,360
+
+81
+00:03:09,360 --> 00:03:12,420
+من دفترچه خرید خود را با
+
+82
+00:03:12,420 --> 00:03:13,980
+یک آدرس ایمیل دریافت کرده‌ام که می‌توانم از آن استفاده کنم
+
+83
+00:03:13,980 --> 00:03:17,040
+اگر بخواهم صورت‌حساب‌های
+
+84
+00:03:17,040 --> 00:03:19,620
+فروشنده را مستقیماً در ژورنال ارسال کنم
+
+85
+00:03:19,620 --> 00:03:21,599
+و می‌توانم ببینم که دارم.  هشت صورتحساب برای
+
+86
+00:03:21,599 --> 00:03:23,099
+اعتبارسنجی درست است، بنابراین من فقط
+
+87
+00:03:23,099 --> 00:03:27,019
+اینجا را کلیک می کنم و این
+
+88
+00:03:27,180 --> 00:03:28,620
+um را باز می کنم، پس
+
+89
+00:03:28,620 --> 00:03:31,080
+متأسفم، من فقط می خواهم به
+
+90
+00:03:31,080 --> 00:03:33,900
+AWS 2 خود برگردم.
+
+91
+00:03:33,900 --> 00:03:35,879
+
+92
+00:03:35,879 --> 00:03:37,440
+
+93
+00:03:37,440 --> 00:03:39,480
+
+94
+00:03:39,480 --> 00:03:41,700
+بدیهی است که از برنامه سند تا حسابداری همه آنها در پیش نویس هستند زیرا اوم
+
+95
+00:03:41,700 --> 00:03:44,280
+من آن را طوری تنظیم کردم که
+
+96
+00:03:44,280 --> 00:03:46,500
+صورتحساب ها را به طور خودکار رزرو نکند، اما
+
+97
+00:03:46,500 --> 00:03:47,940
+اگر می خواهید خوب می توانید این کار را انجام دهید، بنابراین من
+
+98
+00:03:47,940 --> 00:03:49,739
+فقط می خواهم این یکی را باز کنم
+
+99
+00:03:49,739 --> 00:03:52,860
+بنابراین اساساً من باید به صورت دستی روی
+
+100
+00:03:52,860 --> 00:03:56,040
+این دکمه کلیک کنم تا OCR وارد
+
+101
+00:03:56,040 --> 00:03:59,580
+عمل شود و این فاکتور را دیجیتالی کنم، اگر
+
+102
+00:03:59,580 --> 00:04:02,400
+اینجا کلیک کنم چه اتفاقی می افتد اوه،
+
+103
+00:04:02,400 --> 00:04:04,019
+در واقع صدا این است که
+
+104
+00:04:04,019 --> 00:04:07,560
+این PDF را اینجا در کنار می خواند و
+
+105
+00:04:07,560 --> 00:04:09,659
+همه چیز را پیدا می کند.  اطلاعاتی را که
+
+106
+00:04:09,659 --> 00:04:12,360
+باید در این قسمت از صفحه پر کنم،
+
+107
+00:04:12,360 --> 00:04:14,220
+بنابراین به دنبال اطلاعاتی
+
+108
+00:04:14,220 --> 00:04:17,040
+در مورد فروشنده می شود آدرس او
+
+109
+00:04:17,040 --> 00:04:20,180
+شماره مالیات بر ارزش افزوده تاریخ قبض فروشنده
+
+110
+00:04:20,180 --> 00:04:23,400
+و همچنین اطلاعات مربوط به قیمت
+
+111
+00:04:23,400 --> 00:04:25,139
+محصول و هر چیزی که روی آن است
+
+112
+00:04:25,139 --> 00:04:27,479
+خوب است، پس
+
+113
+00:04:27,479 --> 00:04:31,199
+چرا  صدا برای قبوض فروشنده ایدز من در حال بارگیری است.
+
+114
+00:04:31,199 --> 00:04:32,520
+
+115
+00:04:32,520 --> 00:04:33,840
+امم،
+
+116
+00:04:33,840 --> 00:04:35,340
+این چیزی است که واقعاً جالب است
+
+117
+00:04:35,340 --> 00:04:38,940
+و من فقط می خواهم به این نکته اشاره کنم که
+
+118
+00:04:38,940 --> 00:04:41,400
+این فناوری برای خرید اعتبار
+
+119
+00:04:41,400 --> 00:04:45,060
+برای این کار رایگان نیست، بنابراین
+
+120
+00:04:45,060 --> 00:04:47,100
+پس از انجام این کار در عرض یک دقیقه خواهیم دید.  در تنظیمات به شما نشان می دهد
+
+121
+00:04:47,100 --> 00:04:48,419
+که در آن می توانید
+
+122
+00:04:48,419 --> 00:04:50,040
+اعتبار خریداری کنید هر بار که یک
+
+123
+00:04:50,040 --> 00:04:53,400
+پایگاه داده جدید ایجاد می کنید، 200 اعتبار رایگان برای
+
+124
+00:04:53,400 --> 00:04:55,800
+آزمایش آن دریافت می کنید، اما بدیهی است که ممکن است بخواهید
+
+125
+00:04:55,800 --> 00:04:58,259
+مقدار بیشتری خریداری کنید،
+
+126
+00:04:58,259 --> 00:05:00,419
+بنابراین اکنون می بینید که OCR به
+
+127
+00:05:00,419 --> 00:05:03,120
+پایان رسیده است، بنابراین ما می توانیم قبلاً  نام
+
+128
+00:05:03,120 --> 00:05:05,220
+فروشنده همانطور که می‌گفتم
+
+129
+00:05:05,220 --> 00:05:08,280
+اینجا در پی‌دی‌اف است مرجع صورتحساب،
+
+130
+00:05:08,280 --> 00:05:11,220
+تاریخ حسابداری تاریخ سررسید را بسازید و
+
+131
+00:05:11,220 --> 00:05:12,960
+سپس می‌توانید در اینجا خط فاکتور را
+
+132
+00:05:12,960 --> 00:05:16,800
+با um odoo که برای من انتخاب کرده است و
+
+133
+00:05:16,800 --> 00:05:18,720
+یک حساب مجموعه را ببینید زیرا این یک  لپ تاپی
+
+134
+00:05:18,720 --> 00:05:20,820
+که من از این فروشگاه خریدم
+
+135
+00:05:20,820 --> 00:05:23,520
+و قیمتی که اینجا در کنار
+
+136
+00:05:23,520 --> 00:05:25,740
+پی دی اف دارم که بسیار مفید است زیرا می توانم
+
+137
+00:05:25,740 --> 00:05:28,800
+همه چیز را بر اساس این قسمت
+
+138
+00:05:28,800 --> 00:05:31,259
+از صفحه نمایش بررسی کنم حتی می توانم کمی زوم کنم
+
+139
+00:05:31,259 --> 00:05:34,560
+تا ببینم قیمت کجاست تا بتوانید ببینید
+
+140
+00:05:34,560 --> 00:05:36,900
+در اینجا که قیمت یکسان است، بنابراین
+
+141
+00:05:36,900 --> 00:05:38,639
+بسیار مفید است زیرا من فقط می توانم
+
+142
+00:05:38,639 --> 00:05:41,220
+همه چیز را به عنوان iBook
+
+143
+00:05:41,220 --> 00:05:42,960
+در همان زمان کنترل کنم،
+
+144
+00:05:42,960 --> 00:05:44,940
+بنابراین همانطور که می گفتم می خواستم
+
+145
+00:05:44,940 --> 00:05:47,520
+در تنظیمات به شما نشان دهم که برای
+
+146
+00:05:47,520 --> 00:05:49,740
+OCR می توانید چند اعتبار خریداری کنید تا اگر
+
+147
+00:05:49,740 --> 00:05:53,000
+در تنظیمات پایین می روید،
+
+148
+00:05:53,000 --> 00:05:56,639
+منوی دیجیتالی سازی را می بینید که اینجا است و
+
+149
+00:05:56,639 --> 00:05:58,500
+لینکی برای خرید اعتبار در اینجا دارید، بنابراین اگر
+
+150
+00:05:58,500 --> 00:06:00,419
+اینجا را کلیک کنید به
+
+151
+00:06:00,419 --> 00:06:02,720
+صفحه جدیدی هدایت می شوید که در آن واقعاً می توانید
+
+152
+00:06:02,720 --> 00:06:04,860
+اعتبارات مختلف را خریداری کنید تا هرچه بیشتر بخرید
+
+153
+00:06:04,860 --> 00:06:06,720
+ارزان تر می شود و شما فقط می توانید
+
+154
+00:06:06,720 --> 00:06:08,880
+روی خرید کلیک کنید و اطلاعات بانک خود را بدهید
+
+155
+00:06:08,880 --> 00:06:10,440
+و سپس مقداری اعتبار خواهید داشت،
+
+156
+00:06:10,440 --> 00:06:12,479
+بنابراین من فقط
+
+157
+00:06:12,479 --> 00:06:16,620
+به پایگاه داده خود برمی گردم،
+
+158
+00:06:16,620 --> 00:06:17,880
+بنابراین
+
+159
+00:06:17,880 --> 00:06:19,800
+بیایید به ساخت های فروشنده خودمان برگردیم
+
+160
+00:06:19,800 --> 00:06:21,300
+زیرا اکنون من را خواهید دید  هنوز
+
+161
+00:06:21,300 --> 00:06:22,860
+هشت چرخ برای تأیید وجود دارد،
+
+162
+00:06:22,860 --> 00:06:25,440
+بنابراین آنها اینجا هستند، اکنون می توانید ببینید که
+
+163
+00:06:25,440 --> 00:06:27,660
+OCR تمام اطلاعاتی را
+
+164
+00:06:27,660 --> 00:06:31,680
+که در این فاکتورها می خواستم به من داده است،
+
+165
+00:06:31,680 --> 00:06:34,620
+من می توانم آنها را مرور کنم، در
+
+166
+00:06:34,620 --> 00:06:36,539
+واقع
+
+167
+00:06:36,539 --> 00:06:39,120
+اگر مشتری این کار را به درستی انجام دهد بسیار خوب است.
+
+168
+00:06:39,120 --> 00:06:40,500
+شما با هم در یک
+
+169
+00:06:40,500 --> 00:06:42,660
+پایگاه داده کار می کنید مشتری شما در واقع می تواند در
+
+170
+00:06:42,660 --> 00:06:44,400
+برنامه سند
+
+171
+00:06:44,400 --> 00:06:46,199
+فاکتورها و صورتحساب های فروشنده خود را برای
+
+172
+00:06:46,199 --> 00:06:47,520
+سه ماهه آخر بارگذاری کند
+
+173
+00:06:47,520 --> 00:06:50,340
+و آنها را به OCR در برنامه حسابداری ارسال کند
+
+174
+00:06:50,340 --> 00:06:51,720
+
+175
+00:06:51,720 --> 00:06:54,660
+و سپس شما به عنوان یک حسابدار می توانید
+
+176
+00:06:54,660 --> 00:06:56,160
+در پایگاه داده بشنوید و سپس  شما می توانید
+
+177
+00:06:56,160 --> 00:06:58,080
+شروع به مرور کارهایی کنید که به درستی انجام شده است،
+
+178
+00:06:58,080 --> 00:06:59,520
+بنابراین این راهی برای کارآمدتر شدن است
+
+179
+00:06:59,520 --> 00:07:02,340
+و سپس بله، برای مثال در اینجا
+
+180
+00:07:02,340 --> 00:07:03,720
+خواهید دید که صدا
+
+181
+00:07:03,720 --> 00:07:05,819
+گاهی اوقات در صورتی که
+
+182
+00:07:05,819 --> 00:07:07,680
+چیزی کمی عجیب و غریب باشد به شما هشدار می دهد و در
+
+183
+00:07:07,680 --> 00:07:10,259
+این مورد می گوید  به من که
+
+184
+00:07:10,259 --> 00:07:12,360
+ممکن است صورتحساب تکراری در یکی از این
+
+185
+00:07:12,360 --> 00:07:16,199
+قبض های دیگر باشد، خوب است، بنابراین
+
+186
+00:07:16,199 --> 00:07:18,419
+اگر سعی کنم آن را تأیید کنم،
+
+187
+00:07:18,419 --> 00:07:20,220
+این فاکتور مشکلی ندارد و این هشدار را نادیده بگیرم به
+
+188
+00:07:20,220 --> 00:07:22,380
+من اجازه نمی دهد این کار را انجام دهم که خوب است
+
+189
+00:07:22,380 --> 00:07:23,460
+
+190
+00:07:23,460 --> 00:07:25,080
+و او قبلاً می گوید نه  شما آن را رزرو می کنید،
+
+191
+00:07:25,080 --> 00:07:26,580
+مطمئن شوید که
+
+192
+00:07:26,580 --> 00:07:28,139
+تکراری نیست زیرا برای من کمی عجیب به نظر می رسد،
+
+193
+00:07:28,139 --> 00:07:31,199
+بنابراین اگر این لیست را باز کنم می توانم
+
+194
+00:07:31,199 --> 00:07:34,319
+خط اول را ببینم که یک شماره در اینجا وجود دارد، بنابراین
+
+195
+00:07:34,319 --> 00:07:36,060
+قبلا رزرو شده است و وضعیت
+
+196
+00:07:36,060 --> 00:07:38,400
+به صورت پست شده است
+
+197
+00:07:38,400 --> 00:07:40,020
+و سپس من  خط دومی را داشته باشید
+
+198
+00:07:40,020 --> 00:07:42,060
+که اکنون می‌خواهم پست کنم و
+
+199
+00:07:42,060 --> 00:07:43,740
+در واقع وقتی به آن نگاه می‌کنم می‌بینم که
+
+200
+00:07:43,740 --> 00:07:45,960
+تاریخ یکسان است شریک زندگی یکسان است
+
+201
+00:07:45,960 --> 00:07:47,880
+مرجع یکسان است و حتی
+
+202
+00:07:47,880 --> 00:07:49,560
+مقدار آن یکسان است.  به احتمال زیاد
+
+203
+00:07:49,560 --> 00:07:51,960
+من قبلاً این صورتحساب را رزرو کرده ام،
+
+204
+00:07:51,960 --> 00:07:55,380
+بنابراین از ODU متشکرم که به من اجازه ندادید
+
+205
+00:07:55,380 --> 00:07:57,900
+چیزی را دو بار رزرو کنم، فقط می خواهم
+
+206
+00:07:57,900 --> 00:07:59,340
+این ورودی را
+
+207
+00:07:59,340 --> 00:08:01,919
+قبل از رزرو آن را حذف کنم، بنابراین اکنون همه چیز خوب است،
+
+208
+00:08:01,919 --> 00:08:04,500
+می توانم به صورت حساب هایم برگردم
+
+209
+00:08:04,500 --> 00:08:06,720
+و  بنابراین من فقط می توانم تمام صورتحساب هایم را مرور کنم
+
+210
+00:08:06,720 --> 00:08:09,000
+و کنترل کنم که همه چیز
+
+211
+00:08:09,000 --> 00:08:09,960
+
+212
+00:08:09,960 --> 00:08:13,080
+درست است، پس از انجام این کار، می
+
+213
+00:08:13,080 --> 00:08:15,919
+توانم به راحتی همه چیز را با هم
+
+214
+00:08:15,919 --> 00:08:19,680
+با انتخاب همه ورودی هایم در اینجا که
+
+215
+00:08:19,680 --> 00:08:22,379
+هنوز در پیش نویس هستند رزرو کنم و می توانم اینجا
+
+216
+00:08:22,379 --> 00:08:23,879
+روی اقدام
+
+217
+00:08:23,879 --> 00:08:26,099
+و نوشته های پست کلیک کنم.
+
+218
+00:08:26,099 --> 00:08:28,199
+به این ترتیب من می‌توانم
+
+219
+00:08:28,199 --> 00:08:30,720
+تمام صورت‌حساب‌های فروشنده را به‌طور هم‌زمان با
+
+220
+00:08:30,720 --> 00:08:32,820
+یک کلیک پست کنم،
+
+221
+00:08:32,820 --> 00:08:35,159
+زمانی که Ado
+
+222
+00:08:35,159 --> 00:08:37,080
+همه چیزهایی را که این صفحه در اینجا پست کرد خالی است، می‌بینید
+
+223
+00:08:37,080 --> 00:08:39,539
+زیرا من هنوز یک فیلتر روی
+
+224
+00:08:39,539 --> 00:08:41,219
+ورودی پیش‌نویس خود دارم، بنابراین آنها.
+
+225
+00:08:41,219 --> 00:08:43,740
+اگر به داشبورد خود برگردم، دیگر در پیش نویس نیستم،
+
+226
+00:08:43,740 --> 00:08:45,240
+می بینید که من دیگر هشت
+
+227
+00:08:45,240 --> 00:08:47,399
+صورت حساب برای تأیید اعتبار ندارم، اما هشت صورت حساب
+
+228
+00:08:47,399 --> 00:08:48,660
+برای پرداخت دارم
+
+229
+00:08:48,660 --> 00:08:50,459
+که هنوز همان صورت حساب های قبلی هستند،
+
+230
+00:08:50,459 --> 00:08:52,500
+فقط وضعیت آنها تغییر کرده است،
+
+231
+00:08:52,500 --> 00:08:55,680
+بنابراین اکنون  همه آنها در پست شده هستند،
+
+232
+00:08:55,680 --> 00:08:57,120
+آنها هنوز پرداخت نشده اند همانطور که می توانید اینجا را ببینید،
+
+233
+00:08:57,120 --> 00:08:58,320
+
+234
+00:08:58,320 --> 00:09:00,360
+بنابراین شما اینجا هستید، من همه
+
+235
+00:09:00,360 --> 00:09:02,700
+ورودی ها را همزمان پست کرده ام و
+
+236
+00:09:02,700 --> 00:09:05,220
+می توانم ورودی ها را اینجا در
+
+237
+00:09:05,220 --> 00:09:08,700
+برگه موارد مجله در خود فاکتور پیدا کنم  بنابراین می‌توانم
+
+238
+00:09:08,700 --> 00:09:10,019
+چیزهایی را که رزرو شده‌اند اینجا ببینم،
+
+239
+00:09:10,019 --> 00:09:11,339
+
+240
+00:09:11,339 --> 00:09:14,100
+من هنوز PDF را در اینجا در کنار دارم
+
+241
+00:09:14,100 --> 00:09:16,500
+و می‌توانم حساب‌هایی را ببینم که از آنها
+
+242
+00:09:16,500 --> 00:09:19,380
+استفاده شده است، حتی
+
+243
+00:09:19,380 --> 00:09:22,200
+شبکه‌های مالیاتی که بسیار مفید است و حتی می‌توانم
+
+244
+00:09:22,200 --> 00:09:24,600
+کدم را از اینجا مدیریت کنم.  اما این برای
+
+245
+00:09:24,600 --> 00:09:26,760
+ویدیوی دیگری است که احتمالاً مرحله نهم یا
+
+246
+00:09:26,760 --> 00:09:27,540
+چیزی شبیه به آن است.
+
+247
+00:09:27,540 --> 00:09:29,339
+
+248
+00:09:29,339 --> 00:09:32,160
+اوم شما در مورد قبوض فروشنده
+
+249
+00:09:32,160 --> 00:09:35,820
+و استفاده از OCR هستید، فکر می کنم
+
+250
+00:09:35,820 --> 00:09:37,380
+همه چیز را به شما نشان داده ام اما اگر
+
+251
+00:09:37,380 --> 00:09:39,140
+سؤالی دارید دریغ نکنید با ما تماس بگیرید،
+
+252
+00:09:39,140 --> 00:09:42,540
+موفق باشید و  خرید
+
+253
+00:09:42,540 --> 00:09:45,620
+اعتبار برای OCR خود را فراموش نکنید
+

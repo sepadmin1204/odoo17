@@ -1,0 +1,910 @@
+1
+00:00:01,560 --> 00:00:03,720
+hi and welcome to this new series of  videos about how to implement or do in  your accounting firm in 10 easy steps my  name is Laura I'm a business analyst at  odoo and together we're going to go  through all the setups that you need to  know to implement or do easily in your  accounting firm so first step getting  started  in this video we're going to see how you  can create your audio account how you  can create your first customer template  and together we'll be going through all  the setups so that you know exactly what  needs to be activated all right so let's  get started and this is going to start  with our audio.com website  just know that this website is a really  good source of information so make sure  to check it out we've got lots of videos  and tutorials and documentation as well  so if you have any questions it's always  a good place to start to find  information that you need all right so  the first step is to create your Ado  account  so if you click here on sign in you will  have the possibility to log in already  if you don't have an account yet you  just have to click here at the bottom  and then you're going to come here on  the screen where you have to put your  email your name and a password all right  in my case I already have an account so  I'm just going to go back here and then  sign in normally and use my uh  password and I come here to my Ado  account  all right so obviously now I need to  create my first file  so I'm just going to click here on  create I could also go here on chart  free it's the same and here you have the  list of some of the apps that you can  have on uh or do in our case for  accounting firms the one that we want  obviously is accounting so I'm just  going to select this one and click on  continue you will see that the other  apps are going to be installed as well  so I need to give a name to my template  obviously so I'm gonna say it's called  amazing templates  my email address is already there my  country this is important based on the  control you select here or you will  install some of the modules that are  relevant to your country in terms of  taxes chart of accounts and so on so  make sure to make to get this right you  can select the language that you want to  use in your database and then here for  instance I'm just going to choose these  ones and it should be okay and then you  click on start now  and odoo is going to create this  database for us install the apps that we  have selected and all the modules that  are relevant to our country so in this  case Belgium okay and here we are I'm  here on my database where you can see  that I have the accounting application  that I've been that have been installed  but we also have other applications like  dashboard documents and Fleet we're  going to be going through these apps in  a minute uh in another video actually  but so you see that even though I only  selected accounting the other apps have  been installed in case you need more  module you have the apps application  where you can find for instance  all the apps if you want for instance a  module for disallowed expenses you can  also search for a module here make sure  you remove the apps filter and then you  will see that we have some modules for  digital expenses for Belgium for  instance okay  so now that I have this database you see  at the top that I have a banner here  telling me that I need to activate my  database this is important because if  you don't do it after three hours the  database will just disappear so  everything that we will be doing here  will be will be lost so make sure to  click on here or the red button here and  send an email to yourself so you can  activate your database  so now if I go to my inbox  I will find here my email  and you will see here that I have to  activate my database it's very easy  and then you can get a mug if you want  and if not then it's okay all right so  it's all done I've created and activated  my database in no time so it's very easy  so now that we have done that we have  our Auto account and offers templates  this template is going to be the  database that we're going to use to  duplicate it for each client okay so  it's important that we have a standard  version of this database because we're  going to be duplicating it several times  in the future in order to save time all  right so let's get started with the  settings  so we can see what there is in here  the first part is the users so you can  invite your colleagues we will see in  another video how you can do it directly  from the dashboard but know that you can  also do it here you can just type in  their email address and invite them or  create them here manually  you can add some languages  um so for instance I want to use French  I can add a language here and this will  be relevant because I can assign a  language to my colleagues or to my  clients and they will receive their  communication from a do in their own  language so that's a nice thing that you  can set up easily so make sure to use it  in this case I'm not going to switch to  French we're going to stick to English  today but know that you can easily do  that as well all right so I'm just going  to close this now I have two languages  and I will be able to use it later  here I have the info of my company so if  I open it I can just add for instance  the streets my tax number and so on  okay  I can use also some of these things  something else that is relevant in this  uh  these settings you can see here on the  side we have the different apps that  have been installed so in this case I'm  just going to go to accounting and you  will see here because I selected Belgium  in my list when I created the database  or do is automatically installed for me  the standard chart of accounts for  Belgium  so that's pretty nice that's why it's  important to select the right country if  you wanted to change it or you can  import your own but that would be Topic  in another video  you will see also that audio has  installed some uh General taxes  automatically so in this case 21 and  this is the official rate in Belgium  I can also choose the periodicity of my  tax returns in this case I'm going to  say that my clients usually fill their  vat return every month so I'm just going  to leave it as such  but you can change it and choose for  instance quarterly or the  options right and you will see here that  my fiscal country is Belgium this is  also based on the choice that I made at  the beginning but that's really  important also to have this correct  finally the main currency is going to be  Euro in Belgium make sure to select your  own  and know that once you have selected a  currency and you start working in a dude  you won't be able to change it  afterwards so make sure to get it right  at the start  okay so the recipe we'll be going  through together  um  during the the following videos one  thing that I want to show you though is  also here at the top you will see if I  go back to my main screen it will be  even nicer so you have all the apps here  it's a little bit like a smartphone you  have the apps that you have installed  here you have the conversations that you  might have with the other users in your  database  you have your activities here as well  and here you have your own user so if I  click here on my name just know that you  have a direct link to the documentation  which is a very good source of  information so make sure to check it out  in case you have questions  um you also have the direct link to the  supports in case you want to create a  ticket to our support team  you can use some shortcuts you can use  the dark mode if you want but you also  have preferences so if I click here I'm  going to come to my uh user and I can  choose if I want to handle my  notification by emails or in or do this  is my email address I can Define my  signature that will be at the bottom of  the emails that I send out of odoo I've  got my language here and my time zone  all right no also that you can if you  want change your password here and add a  two-factor authentication if you require  to do so all right so this is also you  can add a picture as well if you want so  this is where you can change some of the  things for your user  all right so we have created our audio  account we have our first client file  here in Urdu  um so in another video we're going to  see how we can go further with this  thank you
+سلام و به این سری
+
+2
+00:00:03,720 --> 00:00:05,520
+ویدیوهای جدید در مورد نحوه پیاده سازی یا انجام در
+
+3
+00:00:05,520 --> 00:00:08,280
+شرکت حسابداری خود در 10 مرحله آسان خوش آمدید.
+
+4
+00:00:08,280 --> 00:00:09,840
+نام من لورا است.
+
+5
+00:00:09,840 --> 00:00:11,400
+
+6
+00:00:11,400 --> 00:00:12,960
+برای اینکه
+
+7
+00:00:12,960 --> 00:00:14,880
+بدانید باید در شرکت حسابداری خود به راحتی پیاده سازی یا انجام دهید،
+
+8
+00:00:14,880 --> 00:00:18,060
+بنابراین اولین قدم برای
+
+9
+00:00:18,060 --> 00:00:19,199
+شروع
+
+10
+00:00:19,199 --> 00:00:20,939
+در این ویدیو می خواهیم ببینیم چگونه می
+
+11
+00:00:20,939 --> 00:00:23,279
+توانید حساب صوتی خود را ایجاد کنید چگونه
+
+12
+00:00:23,279 --> 00:00:24,960
+می توانید اولین الگوی مشتری خود را ایجاد کنید
+
+13
+00:00:24,960 --> 00:00:26,820
+و با هم تمام
+
+14
+00:00:26,820 --> 00:00:28,920
+موارد را بررسی خواهیم کرد.  تنظیمات را طوری تنظیم کنید که دقیقاً بدانید چه چیزی
+
+15
+00:00:28,920 --> 00:00:30,840
+باید فعال شود، بنابراین بیایید
+
+16
+00:00:30,840 --> 00:00:33,120
+شروع کنیم و این قرار است
+
+17
+00:00:33,120 --> 00:00:35,660
+با وب سایت audio.com ما شروع شود.
+
+18
+00:00:35,660 --> 00:00:38,399
+
+19
+00:00:38,399 --> 00:00:41,520
+
+20
+00:00:41,520 --> 00:00:43,140
+
+21
+00:00:43,140 --> 00:00:45,239
+همچنین ویدیوها و آموزش‌ها و مستندات زیادی دریافت کرده‌ام،
+
+22
+00:00:45,239 --> 00:00:46,800
+بنابراین اگر سؤالی دارید، همیشه
+
+23
+00:00:46,800 --> 00:00:49,020
+مکان خوبی برای شروع یافتن
+
+24
+00:00:49,020 --> 00:00:51,120
+اطلاعاتی است که به آن نیاز دارید، بنابراین
+
+25
+00:00:51,120 --> 00:00:53,039
+اولین قدم این است که حساب Ado خود را ایجاد کنید،
+
+26
+00:00:53,039 --> 00:00:54,239
+
+27
+00:00:54,239 --> 00:00:56,640
+بنابراین اگر اینجا را کلیک کنید برای ورود به سیستم
+
+28
+00:00:56,640 --> 00:00:58,559
+
+29
+00:00:58,559 --> 00:01:00,539
+اگر هنوز حساب کاربری ندارید، از قبل این امکان را خواهید داشت که وارد شوید،
+
+30
+00:01:00,539 --> 00:01:02,100
+فقط باید اینجا را در پایین کلیک کنید
+
+31
+00:01:02,100 --> 00:01:03,780
+و سپس به اینجا در
+
+32
+00:01:03,780 --> 00:01:05,339
+صفحه ای می آیید که باید
+
+33
+00:01:05,339 --> 00:01:08,820
+ایمیل خود را نام و نام خانوادگی خود را وارد کنید.  رمز عبور خیلی خوب است
+
+34
+00:01:08,820 --> 00:01:10,979
+در مورد من من قبلاً یک حساب دارم، بنابراین
+
+35
+00:01:10,979 --> 00:01:12,659
+فقط می خواهم به اینجا برگردم و سپس به
+
+36
+00:01:12,659 --> 00:01:17,659
+طور معمول وارد سیستم شوم و از رمز عبور uh خود استفاده کنم
+
+37
+00:01:19,619 --> 00:01:22,799
+و من به اینجا به حساب Ado خود می آیم،
+
+38
+00:01:22,799 --> 00:01:24,299
+
+39
+00:01:24,299 --> 00:01:26,700
+بنابراین بدیهی است که اکنون باید
+
+40
+00:01:26,700 --> 00:01:29,040
+اولین خود را ایجاد کنم  فایل،
+
+41
+00:01:29,040 --> 00:01:30,659
+بنابراین من فقط می‌خواهم اینجا را کلیک کنم روی
+
+42
+00:01:30,659 --> 00:01:32,400
+ایجاد، من می‌توانم به اینجا بروم در نمودار
+
+43
+00:01:32,400 --> 00:01:35,280
+رایگان هم همینطور است و در اینجا
+
+44
+00:01:35,280 --> 00:01:37,259
+لیست برخی از برنامه‌هایی را دارید که می‌توانید
+
+45
+00:01:37,259 --> 00:01:40,320
+در مورد آنها داشته باشید یا در مورد ما برای
+
+46
+00:01:40,320 --> 00:01:41,939
+شرکت‌های حسابداری انجام دهید.  که ما می خواهیم
+
+47
+00:01:41,939 --> 00:01:43,799
+بدیهی است که حسابداری است، بنابراین من فقط
+
+48
+00:01:43,799 --> 00:01:45,840
+این یکی را انتخاب می کنم و روی
+
+49
+00:01:45,840 --> 00:01:48,299
+ادامه کلیک می کنم، می بینید که
+
+50
+00:01:48,299 --> 00:01:51,320
+برنامه های دیگر نیز نصب می شوند،
+
+51
+00:01:51,320 --> 00:01:54,840
+بنابراین باید یک نام برای الگوی خود بگذارم،
+
+52
+00:01:54,840 --> 00:01:57,960
+بنابراین من می خواهم  می گویند به آن
+
+53
+00:01:57,960 --> 00:02:00,060
+قالب های شگفت انگیز می گویند
+
+54
+00:02:00,060 --> 00:02:02,280
+آدرس ایمیل من در حال حاضر وجود دارد
+
+55
+00:02:02,280 --> 00:02:04,320
+کشور من این مهم است بر اساس
+
+56
+00:02:04,320 --> 00:02:06,360
+کنترلی که در اینجا انتخاب می کنید یا
+
+57
+00:02:06,360 --> 00:02:08,160
+برخی از ماژول های
+
+58
+00:02:08,160 --> 00:02:10,619
+مربوط به کشور خود را از نظر
+
+59
+00:02:10,619 --> 00:02:13,739
+نمودار حساب مالیاتی و غیره نصب خواهید کرد بنابراین
+
+60
+00:02:13,739 --> 00:02:16,379
+مطمئن شوید  برای درست کردن این کار
+
+61
+00:02:16,379 --> 00:02:18,000
+می توانید زبانی را که می خواهید
+
+62
+00:02:18,000 --> 00:02:21,180
+در پایگاه داده خود استفاده کنید انتخاب کنید و سپس در اینجا برای
+
+63
+00:02:21,180 --> 00:02:22,739
+مثال من فقط اینها را انتخاب می کنم
+
+64
+00:02:22,739 --> 00:02:24,780
+و باید خوب باشد و سپس
+
+65
+00:02:24,780 --> 00:02:27,540
+روی start now کلیک کنید
+
+66
+00:02:27,540 --> 00:02:29,520
+و odoo می رود  این
+
+67
+00:02:29,520 --> 00:02:33,599
+پایگاه داده را برای ما ایجاد کنید برنامه هایی را که
+
+68
+00:02:33,599 --> 00:02:35,160
+انتخاب کرده ایم و همه ماژول های
+
+69
+00:02:35,160 --> 00:02:37,920
+مرتبط با کشورمان را نصب کنید، بنابراین در این
+
+70
+00:02:37,920 --> 00:02:41,459
+مورد بلژیک خوب است و اینجا هستیم، من
+
+71
+00:02:41,459 --> 00:02:44,760
+اینجا در پایگاه داده خود هستم، جایی که می توانید ببینید
+
+72
+00:02:44,760 --> 00:02:46,980
+که من برنامه حسابداری را دارم
+
+73
+00:02:46,980 --> 00:02:49,560
+که  من نصب شده‌ام
+
+74
+00:02:49,560 --> 00:02:52,560
+اما برنامه‌های دیگری مانند
+
+75
+00:02:52,560 --> 00:02:55,260
+اسناد داشبورد و Fleet نیز داریم که
+
+76
+00:02:55,260 --> 00:02:56,700
+
+77
+00:02:56,700 --> 00:02:59,700
+در یک ویدیوی دیگر در عرض یک دقیقه این برنامه‌ها را مرور می‌کنیم،
+
+78
+00:02:59,700 --> 00:03:01,739
+اما می‌بینید که حتی اگر من فقط
+
+79
+00:03:01,739 --> 00:03:03,900
+حسابداری دیگری را انتخاب کردم.
+
+80
+00:03:03,900 --> 00:03:06,540
+اگر به ماژول بیشتری نیاز دارید، برنامه‌ها نصب شده‌اند،
+
+81
+00:03:06,540 --> 00:03:09,060
+برنامه برنامه‌ها را دارید
+
+82
+00:03:09,060 --> 00:03:11,480
+که می‌توانید
+
+83
+00:03:11,480 --> 00:03:16,379
+برای مثال همه برنامه‌ها را پیدا کنید، اگر می‌خواهید به عنوان مثال
+
+84
+00:03:16,379 --> 00:03:19,200
+ماژولی برای هزینه‌های غیرمجاز داشته باشید،
+
+85
+00:03:19,200 --> 00:03:21,180
+همچنین می‌توانید یک ماژول را در اینجا جستجو کنید، مطمئن شوید که
+
+86
+00:03:21,180 --> 00:03:23,519
+فیلتر برنامه‌ها را حذف کرده‌اید و  سپس خواهید
+
+87
+00:03:23,519 --> 00:03:26,220
+دید که ما چند ماژول برای
+
+88
+00:03:26,220 --> 00:03:28,680
+هزینه های دیجیتال برای بلژیک داریم، به
+
+89
+00:03:28,680 --> 00:03:30,959
+عنوان مثال خوب است،
+
+90
+00:03:30,959 --> 00:03:33,900
+بنابراین اکنون که من این پایگاه داده را دارم،
+
+91
+00:03:33,900 --> 00:03:35,760
+در بالا می بینید که من یک بنر در اینجا دارم که
+
+92
+00:03:35,760 --> 00:03:37,620
+به من می گوید که باید
+
+93
+00:03:37,620 --> 00:03:39,300
+پایگاه داده خود را فعال کنم، این مهم است زیرا اگر
+
+94
+00:03:39,300 --> 00:03:41,099
+شما  این کار را بعد از سه ساعت انجام ندهید
+
+95
+00:03:41,099 --> 00:03:43,260
+پایگاه داده ناپدید می شود، بنابراین
+
+96
+00:03:43,260 --> 00:03:44,580
+تمام کارهایی که ما اینجا انجام می دهیم از
+
+97
+00:03:44,580 --> 00:03:47,340
+بین می رود، بنابراین مطمئن شوید که
+
+98
+00:03:47,340 --> 00:03:50,760
+روی اینجا یا دکمه قرمز اینجا کلیک کنید و
+
+99
+00:03:50,760 --> 00:03:53,040
+یک ایمیل برای خودتان ارسال کنید تا بتوانید
+
+100
+00:03:53,040 --> 00:03:55,260
+پایگاه داده خود را فعال کنید.
+
+101
+00:03:55,260 --> 00:03:58,560
+بنابراین حالا اگر به صندوق ورودی خود بروم،
+
+102
+00:03:58,560 --> 00:04:02,459
+ایمیل خود را اینجا پیدا می کنم
+
+103
+00:04:02,459 --> 00:04:04,200
+و می بینید که من باید
+
+104
+00:04:04,200 --> 00:04:07,560
+پایگاه داده خود را فعال کنم، این کار بسیار آسان است
+
+105
+00:04:07,560 --> 00:04:09,599
+و سپس اگر بخواهید می توانید یک لیوان تهیه کنید
+
+106
+00:04:09,599 --> 00:04:12,900
+و اگر نه، اشکالی ندارد پس
+
+107
+00:04:12,900 --> 00:04:15,060
+همه چیز خوب است.  انجام شد من
+
+108
+00:04:15,060 --> 00:04:20,399
+پایگاه داده خود را در کمترین زمان ایجاد و فعال کردم، بنابراین بسیار آسان است،
+
+109
+00:04:20,399 --> 00:04:22,620
+بنابراین اکنون که ما
+
+110
+00:04:22,620 --> 00:04:25,080
+حساب Auto خود را داریم و الگوهایی را ارائه می دهیم،
+
+111
+00:04:25,080 --> 00:04:28,259
+این الگو
+
+112
+00:04:28,259 --> 00:04:30,360
+پایگاه داده ای خواهد بود که ما از آن برای
+
+113
+00:04:30,360 --> 00:04:33,000
+کپی کردن آن استفاده می کنیم.  هر کلاینت خوب است، بنابراین
+
+114
+00:04:33,000 --> 00:04:35,040
+مهم است که ما یک
+
+115
+00:04:35,040 --> 00:04:37,199
+نسخه استاندارد از این پایگاه داده داشته باشیم، زیرا
+
+116
+00:04:37,199 --> 00:04:39,540
+
+117
+00:04:39,540 --> 00:04:42,000
+در آینده چندین بار آن را کپی خواهیم کرد تا در زمان صرفه
+
+118
+00:04:42,000 --> 00:04:43,380
+جویی کنیم، بنابراین بیایید با تنظیمات شروع کنیم
+
+119
+00:04:43,380 --> 00:04:44,540
+
+120
+00:04:44,540 --> 00:04:48,300
+تا ببینیم چه چیزی وجود دارد.  در اینجا
+
+121
+00:04:48,300 --> 00:04:51,180
+قسمت اول کاربران هستند، بنابراین می توانید
+
+122
+00:04:51,180 --> 00:04:53,460
+همکاران خود را دعوت کنید، در
+
+123
+00:04:53,460 --> 00:04:55,320
+ویدیوی دیگری خواهیم دید که چگونه می توانید مستقیماً
+
+124
+00:04:55,320 --> 00:04:57,360
+از داشبورد این کار را انجام دهید، اما بدانید که
+
+125
+00:04:57,360 --> 00:04:58,919
+در اینجا نیز می توانید این کار را انجام دهید، فقط می توانید
+
+126
+00:04:58,919 --> 00:05:01,080
+آدرس ایمیل آنها را تایپ کرده و آنها را دعوت کنید یا
+
+127
+00:05:01,080 --> 00:05:03,360
+آنها را در اینجا به صورت دستی ایجاد کنید،
+
+128
+00:05:03,360 --> 00:05:06,120
+می توانید چند زبان اضافه کنید،
+
+129
+00:05:06,120 --> 00:05:09,380
+بنابراین به عنوان مثال من می خواهم از فرانسوی استفاده کنم،
+
+130
+00:05:09,380 --> 00:05:12,479
+می توانم یک زبان را در اینجا اضافه کنم و این موضوع
+
+131
+00:05:12,479 --> 00:05:15,960
+مرتبط خواهد بود زیرا می توانم
+
+132
+00:05:15,960 --> 00:05:19,199
+زبانی را به همکارانم یا
+
+133
+00:05:19,199 --> 00:05:20,759
+مشتریانم اختصاص دهم و آنها
+
+134
+00:05:20,759 --> 00:05:22,680
+ارتباطات خود را از یک  به زبان خودشان انجام دهند،
+
+135
+00:05:22,680 --> 00:05:25,020
+بنابراین این کار خوبی است که
+
+136
+00:05:25,020 --> 00:05:27,000
+می‌توانید به راحتی آن را تنظیم کنید، بنابراین مطمئن شوید که
+
+137
+00:05:27,000 --> 00:05:28,740
+در این مورد از آن استفاده کنید، من قصد ندارم به
+
+138
+00:05:28,740 --> 00:05:29,940
+فرانسوی سوئیچ کنم، امروز به انگلیسی می‌مانیم،
+
+139
+00:05:29,940 --> 00:05:32,220
+اما بدانید که شما به راحتی می‌توانید این کار را انجام دهید.
+
+140
+00:05:32,220 --> 00:05:33,960
+خوب است، بنابراین من فقط می خواهم
+
+141
+00:05:33,960 --> 00:05:35,880
+این را ببندم، من دو زبان دارم
+
+142
+00:05:35,880 --> 00:05:38,880
+و بعداً می توانم از آن استفاده کنم،
+
+143
+00:05:38,880 --> 00:05:43,259
+اطلاعات شرکتم را دارم، بنابراین اگر
+
+144
+00:05:43,259 --> 00:05:45,660
+آن را باز کنم، می توانم به عنوان مثال
+
+145
+00:05:45,660 --> 00:05:50,520
+خیابان های خود را اضافه کنم.  شماره مالیات و غیره بسیار
+
+146
+00:05:50,520 --> 00:05:51,919
+خوب،
+
+147
+00:05:51,919 --> 00:05:57,419
+من می توانم از برخی از این موارد استفاده کنم،
+
+148
+00:05:57,419 --> 00:06:00,060
+چیز دیگری که مربوط به
+
+149
+00:06:00,060 --> 00:06:01,380
+
+150
+00:06:01,380 --> 00:06:03,419
+این تنظیمات است، می توانید اینجا را ببینید، در
+
+151
+00:06:03,419 --> 00:06:04,919
+سمتی که ما برنامه های مختلفی را
+
+152
+00:06:04,919 --> 00:06:06,720
+نصب کرده ایم، بنابراین در این مورد من
+
+153
+00:06:06,720 --> 00:06:09,120
+فقط می خواهم  به حسابداری بروید و
+
+154
+00:06:09,120 --> 00:06:11,400
+اینجا را خواهید دید زیرا من
+
+155
+00:06:11,400 --> 00:06:13,620
+هنگام ایجاد پایگاه داده بلژیک را در لیست خود انتخاب کردم
+
+156
+00:06:13,620 --> 00:06:16,139
+یا اینکه به طور خودکار
+
+157
+00:06:16,139 --> 00:06:17,940
+نمودار حساب های استاندارد
+
+158
+00:06:17,940 --> 00:06:19,020
+بلژیک را برای من نصب می کند،
+
+159
+00:06:19,020 --> 00:06:21,240
+بنابراین بسیار خوب است، به همین دلیل
+
+160
+00:06:21,240 --> 00:06:23,280
+مهم است که اگر می خواهید کشور مناسب را انتخاب کنید.
+
+161
+00:06:23,280 --> 00:06:26,100
+برای تغییر آن یا می توانید
+
+162
+00:06:26,100 --> 00:06:28,919
+خودتان را وارد کنید، اما این موضوع
+
+163
+00:06:28,919 --> 00:06:30,300
+در یک ویدیوی دیگر خواهد بود،
+
+164
+00:06:30,300 --> 00:06:31,979
+همچنین خواهید دید که صدا
+
+165
+00:06:31,979 --> 00:06:34,199
+برخی از مالیات های عمومی را
+
+166
+00:06:34,199 --> 00:06:36,780
+به طور خودکار نصب کرده است، بنابراین در این مورد 21 و
+
+167
+00:06:36,780 --> 00:06:39,479
+این نرخ رسمی در بلژیک است،
+
+168
+00:06:39,479 --> 00:06:42,180
+من همچنین می توانم دوره تناوب را انتخاب کنم.
+
+169
+00:06:42,180 --> 00:06:44,160
+اظهارنامه مالیاتی من در این مورد من می خواهم
+
+170
+00:06:44,160 --> 00:06:47,039
+بگویم که مشتریان من معمولا اظهارنامه
+
+171
+00:06:47,039 --> 00:06:49,020
+مالیات بر ارزش افزوده خود را هر ماه پر می کنند، بنابراین من فقط
+
+172
+00:06:49,020 --> 00:06:50,580
+آن را به عنوان چنین می نویسم،
+
+173
+00:06:50,580 --> 00:06:52,620
+اما شما می توانید آن را تغییر دهید و به عنوان
+
+174
+00:06:52,620 --> 00:06:55,500
+مثال سه ماهه یا
+
+175
+00:06:55,500 --> 00:06:57,840
+گزینه های مناسب را انتخاب کنید.  در اینجا ببینید که
+
+176
+00:06:57,840 --> 00:06:59,880
+کشور مالی من بلژیک است، این
+
+177
+00:06:59,880 --> 00:07:01,620
+نیز بر اساس انتخابی است که در ابتدا انجام دادم،
+
+178
+00:07:01,620 --> 00:07:02,940
+اما این نیز بسیار
+
+179
+00:07:02,940 --> 00:07:05,520
+مهم است که این درست باشد، در
+
+180
+00:07:05,520 --> 00:07:07,800
+نهایت ارز اصلی
+
+181
+00:07:07,800 --> 00:07:10,560
+یورو در بلژیک خواهد بود، مطمئن شوید که خودتان را انتخاب کنید
+
+182
+00:07:10,560 --> 00:07:11,840
+
+183
+00:07:11,840 --> 00:07:15,539
+و بدانید که  هنگامی که یک
+
+184
+00:07:15,539 --> 00:07:17,520
+ارز را انتخاب کردید و شروع به کار در یک شخص کردید،
+
+185
+00:07:17,520 --> 00:07:19,080
+
+186
+00:07:19,080 --> 00:07:21,020
+پس از آن نمی توانید آن را تغییر دهید، بنابراین مطمئن شوید که در ابتدا آن را درست انجام دهید،
+
+187
+00:07:21,020 --> 00:07:22,919
+
+188
+00:07:22,919 --> 00:07:25,380
+بنابراین دستور العملی که
+
+189
+00:07:25,380 --> 00:07:26,880
+
+190
+00:07:26,880 --> 00:07:27,479
+
+191
+00:07:27,479 --> 00:07:30,720
+در ویدیوهای زیر با هم مرور خواهیم کرد.  یکی از
+
+192
+00:07:30,720 --> 00:07:32,580
+چیزهایی که می خواهم به شما نشان دهم
+
+193
+00:07:32,580 --> 00:07:35,880
+در بالا نیز وجود دارد، خواهید دید اگر
+
+194
+00:07:35,880 --> 00:07:37,500
+به صفحه اصلی خود برگردم
+
+195
+00:07:37,500 --> 00:07:39,479
+حتی زیباتر می شود، بنابراین شما همه برنامه ها را در اینجا
+
+196
+00:07:39,479 --> 00:07:40,860
+
+197
+00:07:40,860 --> 00:07:42,500
+دارید.  شما در اینجا نصب کرده اید،
+
+198
+00:07:42,500 --> 00:07:46,080
+مکالماتی را دارید که
+
+199
+00:07:46,080 --> 00:07:47,580
+ممکن است با سایر کاربران در پایگاه داده خود داشته باشید، در
+
+200
+00:07:47,580 --> 00:07:48,539
+
+201
+00:07:48,539 --> 00:07:50,699
+اینجا نیز فعالیت های خود را دارید
+
+202
+00:07:50,699 --> 00:07:53,580
+و در اینجا شما کاربر خود را دارید، بنابراین اگر
+
+203
+00:07:53,580 --> 00:07:55,800
+روی نام خود اینجا کلیک کنم، فقط بدانید که شما
+
+204
+00:07:55,800 --> 00:07:57,360
+یک لینک مستقیم به آن دارید.  اسنادی
+
+205
+00:07:57,360 --> 00:07:58,800
+که منبع بسیار خوبی از
+
+206
+00:07:58,800 --> 00:08:00,419
+اطلاعات است، بنابراین
+
+207
+00:08:00,419 --> 00:08:03,060
+در صورت داشتن سؤال، حتماً آن را بررسی کنید،
+
+208
+00:08:03,060 --> 00:08:04,620
+
+209
+00:08:04,620 --> 00:08:06,900
+اگر می‌خواهید یک
+
+210
+00:08:06,900 --> 00:08:09,419
+تیکت برای تیم پشتیبانی ما ایجاد کنید،
+
+211
+00:08:09,419 --> 00:08:11,280
+می‌توانید از چند میانبر استفاده کنید.
+
+212
+00:08:11,280 --> 00:08:13,979
+اگر بخواهید می‌توانید از حالت تاریک استفاده کنید، اما شما نیز
+
+213
+00:08:13,979 --> 00:08:16,680
+تنظیمات برگزیده دارید، بنابراین اگر اینجا را کلیک کنم،
+
+214
+00:08:16,680 --> 00:08:20,099
+به کاربر Uh خود می‌روم و می‌توانم
+
+215
+00:08:20,099 --> 00:08:22,080
+انتخاب کنم که آیا می‌خواهم
+
+216
+00:08:22,080 --> 00:08:25,379
+اعلان‌هایم را از طریق ایمیل مدیریت کنم یا در این آدرس ایمیل من است یا این کار را انجام دهم.
+
+217
+00:08:25,379 --> 00:08:27,539
+من می‌توانم
+
+218
+00:08:27,539 --> 00:08:29,220
+امضای خود را که در پایین
+
+219
+00:08:29,220 --> 00:08:32,520
+ایمیل‌هایی که از odoo ارسال می‌کنم مشخص کنم.
+
+220
+00:08:32,520 --> 00:08:34,500
+
+221
+00:08:34,500 --> 00:08:37,020
+
+222
+00:08:37,020 --> 00:08:40,080
+
+223
+00:08:40,080 --> 00:08:42,179
+اگر نیاز دارید
+
+224
+00:08:42,179 --> 00:08:45,300
+که این کار را به درستی انجام دهید، احراز هویت فاکتوری را نیز باید انجام دهید، بنابراین
+
+225
+00:08:45,300 --> 00:08:48,180
+اگر بخواهید می توانید یک عکس نیز اضافه کنید، بنابراین
+
+226
+00:08:48,180 --> 00:08:50,700
+اینجاست که می توانید برخی از
+
+227
+00:08:50,700 --> 00:08:52,680
+موارد را برای کاربر خود تغییر دهید،
+
+228
+00:08:52,680 --> 00:08:55,800
+بنابراین ما حساب صوتی خود را ایجاد کرده ایم.
+
+229
+00:08:55,800 --> 00:08:58,560
+اولین فایل مشتری
+
+230
+00:08:58,560 --> 00:09:00,360
+در اینجا به زبان اردو
+
+231
+00:09:00,360 --> 00:09:02,100
+um، بنابراین در یک ویدیوی دیگر می‌خواهیم
+
+232
+00:09:02,100 --> 00:09:04,019
+ببینیم چگونه می‌توانیم با تشکر از شما بیشتر پیش برویم.
+
+233
+00:09:04,019 --> 00:09:06,800
+
